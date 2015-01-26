@@ -1,0 +1,16 @@
+---
+title: 配置Rime
+wordpress_id: 845
+wordpress_url: http://blog.easoncxz.com/?p=845
+date: '2013-09-08 01:09:38 +1200'
+date_gmt: '2013-09-07 13:09:38 +1200'
+categories:
+- User
+tags:
+- Rime
+comments: []
+---
+<p>今天我意圖配置<a title="code.google.com" href="https://code.google.com/p/rimeime" target="_blank">Rime</a>的時候<a title="twitter.com" href="https://twitter.com/easoncxz/status/376297459799977984" target="_blank">感嘆</a>Rime的文檔很難讀。現在趕緊在這裏記下我關心的配置：<a title="code.google.com" href="https://code.google.com/p/rimeime/wiki/CustomizationGuide#一例、定製標點符號" target="_blank">符號</a>、<a title="code.google.com" href="https://code.google.com/p/rimeime/wiki/CustomizationGuide#【朙月拼音】模糊音定製模板" target="_blank">粵語拼音</a>。</p>
+<p>配置文件所在目錄：<code>~/.config/ibus/rime/</code></p>
+<p>修改符號的文件： <code>luna_pinyin.schema.yaml</code></p>
+<p>添加粵拼的文件（須創建）： <code>default.custom.yaml</code> （ <code>default.yaml</code> 是會自動生成的，可以隨便刪除<code>）</code></p>

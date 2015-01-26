@@ -1,0 +1,18 @@
+---
+title: 行外人
+wordpress_id: 1123
+wordpress_url: http://blog.easoncxz.com/?p=1123
+date: '2014-03-22 20:20:13 +1300'
+date_gmt: '2014-03-22 08:20:13 +1300'
+categories:
+- lite
+- jabber
+tags: []
+comments: []
+---
+<p>如果不管行外人——</p>
+<p>画家有什么好画的呢？</p>
+<p>软件工程师有什么软件要做的呢？</p>
+<p>语言学家分析语言何用？</p>
+<p>经理有什么要管的呢？</p>
+<p>甚者，作家有什么好写的呢？</p>

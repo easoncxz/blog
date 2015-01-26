@@ -1,0 +1,32 @@
+---
+title: 学概念
+wordpress_id: 982
+wordpress_url: http://blog.easoncxz.com/?p=982
+date: '2014-02-03 16:43:47 +1300'
+date_gmt: '2014-02-03 04:43:47 +1300'
+categories:
+- jabber
+tags: []
+comments:
+- id: 18873
+  author: Eason Chen
+  author_email: easoncxz@gmail.com
+  author_url: ''
+  date: '2014-02-13 14:49:45 +1300'
+  date_gmt: '2014-02-13 02:49:45 +1300'
+  content: "发现了一条 HN thread: <a href=\"https://news.ycombinator.com/item?id=7204515\"
+    rel=\"nofollow\">The Programming Steamroller Waits For No One (2013) (thecodist.com)</a>,
+    其中有很多关于「学习」、「概念」的评论，例如这些：\r\n- \"<a href=\"https://news.ycombinator.com/item?id=7205066\"
+    rel=\"nofollow\">hundreds of different ways to do more or less the same thing</a>\"\r\n-
+    \"<a href=\"https://news.ycombinator.com/item?id=7205080\" rel=\"nofollow\">I
+    like learning new concepts</a>\""
+---
+<p>网上有许多产品；开发者有许多工具。我作为一个开发者，需要学习使用各种工具。各种工具各自（一般）附有文档。</p>
+<p>文档中会有很多词语，是别处用不到的。这些词语——或者称 生词/专业词汇 ——其实导致理解困难是因为涉及了新的<strong>概念</strong>。</p>
+<p>新的概念其实随着新的产品的诞生而被引入。例如， Twitter 就用到了 "tweet", "follow" 等概念；Python 用到了 import 的概念。</p>
+<p>有时新的概念实质上做的事情和原来的差不多，例如一个服务中 "favourite" 的概念很可能和另一个服务中 "bookmark" 的概念所完成的任务是一样的。类似地，pip 和 gem 的概念也是差不多的。</p>
+<p>学习新的概念需要、也应该通过<strong>理解</strong>该新概念的组成部分进行。这个的意思是，观察新的概念所指代的事物的各个部分、各个特征，看其中哪些部分是和原有的或者其他的概念的某个部分一样的，哪个部分是新的，即其所指代的事物（或其某部分）不被原有的或其他的任何概念所指代（或包含）。</p>
+<p>&nbsp;</p>
+<p>学习新的工具如此困难，正是因为<strong>概念</strong>很多都是新的。不仅需要学习使用工具的技巧，还需要学习工具背后的新概念。</p>
+<p>出于完全同一个原因，学习某种工具的第二件的时候，难度要比第一件要小得多。例如，母语是汉语的人学习英语的时候，会认为「时态」很烦人——汉语里面要表示过去就加「了」、「当时」，要表示未来就加「将来」、「会」，要表示进行就用「正在」，哪里需要什么「动词变位」？于是遇到比方说法语这样有更多的时态的语言，彻底傻眼了。然而一旦掌握了英语，就会发现，时态再多，每个时态其实本身表达的是其各自的一个<strong>概念</strong>，而概念是只需要学一遍的。据我目前所知，貌似法语里某个时态表达的意思就和英语里的虚拟语气是一样的。</p>
+<p>学习新概念是不容易的，但是习惯了学习新概念的过程，各种学习会从中受惠。</p>

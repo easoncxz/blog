@@ -1,0 +1,30 @@
+---
+title: Makers
+wordpress_id: 882
+wordpress_url: http://blog.easoncxz.com/?p=882
+date: '2013-11-11 02:33:37 +1300'
+date_gmt: '2013-11-10 14:33:37 +1300'
+categories:
+- reading
+tags:
+- maker
+comments: []
+---
+<p>This is a mind purge after reading some essays from Paul Graham's website.</p>
+<p>&nbsp;</p>
+<h4>Hackers/makers vs. scientists/mathematicians, and engineers</h4>
+<p>Hackers make stuff. They identify problems, and solves them. Scientists do the math. They provide a collection of "tools" which can be used by hackers. Engineers are similar to hackers.</p>
+<p>&nbsp;</p>
+<h4>Problems &amp; tools</h4>
+<p>"Knowing your math"/"Knowing how to use tools" might be useful (as a preparation to solving problems), but that is a different thing from "knowing what the problem is".</p>
+<p>"identifying the problem" &gt; "knowing how to solve a problem"</p>
+<p>&nbsp;</p>
+<h4>Doubt towards "academic"/"education"</h4>
+<p>Perhaps the way students are cultivated in undergrad schools leads students to become more of scientists than hackers. A typical thought laboratory would be "Java as the language to introduce programming".</p>
+<p>&nbsp;</p>
+<h4>Language &amp; thought</h4>
+<p>Language shouldn't be merely a tool for recording/expressing thought. It should also be a <strong>tool</strong>, which assists with thought. Yes, I mean natural languages as well.</p>
+<p>&nbsp;</p>
+<h4>Philosophy &amp; other fields</h4>
+<p>Philosophy is the collection of abstract ideas which exist in all non-philosophy fields. Philosophy is, in some cases, considered to be a field of its own.</p>
+<p>When philosophy is a collection of abstract ideas extracted from a non-philosophy field, it is useful; when it is considered to be a field of its own, it is useless (or at least less useful). This is due to the same reason for "identifying the problem" being more useful than "knowing how to use tools": philosophy-as-a-field is the tool, and the non-philosophy field is/contains the problem.</p>

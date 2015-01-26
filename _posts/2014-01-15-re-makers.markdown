@@ -1,0 +1,17 @@
+---
+title: 're: Makers'
+wordpress_id: 959
+wordpress_url: http://blog.easoncxz.com/?p=959
+date: '2014-01-15 15:20:03 +1300'
+date_gmt: '2014-01-15 03:20:03 +1300'
+categories:
+- thinking
+tags:
+- tool
+- maker
+comments: []
+---
+<p>I used to make a distinction between <a title="blog.easoncxz.com" href="http://blog.easoncxz.com/?p=882" target="_blank">makers &amp; scientists etc.</a>. After an occasional discussion with Dad, I think I'm slightly changing my mind.</p>
+<p>The <strong>way/method/technique</strong> in which a certain type of knowledge/tool/technology is used to solve a problem (which is what "makers" do) is, per se, a piece of new knowledge. It could also be understood as new insight into how to use tools to solve problems.</p>
+<p>In this way, the <em>same</em> action may <em>simultaneously</em> be rightfully considered as both an act of putting knowledge to use, and an act of creating knowledge.<em></em></p>
+<p>Therefore, "using your tools" could still be a way to produce new knonledge - but use them well.</p>

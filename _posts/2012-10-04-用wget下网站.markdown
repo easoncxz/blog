@@ -1,0 +1,57 @@
+---
+title: 用wget下网站
+excerpt: "见 <a href=\"http://nzta.govt.nz/resources/roadcode/road-code-index.html\">NZ
+  road code</a> ，这份《道路规则》是有纸质书卖的，但是网上有我就不想去买了；携带还方便。苦于官方没有提供任何下载的途径，我只好学习了下wget，然后就靠它了。\r\n<pre>D:\\wget-test&gt;
+  wget \\\r\n--recursive \\\r\n--no-clobber \\\r\n--page-requisites \\\r\n--html-extension
+  \\\r\n--convert-links \\\r\n--restrict-file-names=windows \\\r\n--user-agent=\"Mozilla/4.0
+  (Windows;MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)\" \\\r\n--domains nzta.govt.nz
+  \\\r\n--no-parent \\\r\n--exclude-directories=/cyclist-code/,/motorcycle-road-code,/heavy-vehicle-road-code
+  \\\r\nnzta.govt.nz/resources/roadcode</pre>\r\n参考：\r\n<ul>\r\n\t<li><a href=\"http://www.linuxjournal.com/content/downloading-entire-web-site-wget\">Downloading
+  an Entire Web Site with wget | Linux Journal</a></li>\r\n\t<li><a href=\"http://www.thegeekstuff.com/2009/09/the-ultimate-wget-download-guide-with-15-awesome-examples/\">The
+  Ultimate Wget Download Guide With 15 Awesome Examples</a></li>\r\n\t<li><a href=\"http://www.rationallyparanoid.com/articles/wget.html\">Wget
+  usage examples - rationallyPARANOID.com</a></li>\r\n\t<li><a href=\"http://www.nightbluefruit.com/blog/2009/09/wget-recursive-ftp-and-exclude-directories/\">wget,
+  recursive ftp and exclude-directories | Night Blue Fruit Technology</a></li>\r\n\t<li><a
+  href=\"http://sunsite.univie.ac.at/textbooks/wget/wget.html\">GNU Wget Manual</a></li>\r\n\t<li><a
+  href=\"http://www.linuxquestions.org/questions/fedora-35/wget-exclude-directories-option-broken-fc2-188034/\">wget
+  --exclude-directories option broken? (fc2)</a></li>\r\n</ul>\r\n"
+wordpress_id: 354
+wordpress_url: http://blog.easoncxz.com/?p=354
+date: '2012-10-04 20:30:49 +1300'
+date_gmt: '2012-10-04 08:30:49 +1300'
+categories:
+- User
+tags:
+- Wget
+comments: []
+---
+<p>见 <a href="http://nzta.govt.nz/resources/roadcode/road-code-index.html">NZ road code</a> ，这份《道路规则》是有纸质书卖的，但是网上有我就不想去买了；携带还方便。苦于官方没有提供任何下载的途径，我只好学习了下wget，然后就靠它了。</p>
+<pre>D:\wget-test&gt; wget \
+--recursive \
+--no-clobber \
+--page-requisites \
+--html-extension \
+--convert-links \
+--restrict-file-names=windows \
+--user-agent="Mozilla/4.0 (Windows;MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)" \
+--domains nzta.govt.nz \
+--no-parent \
+--exclude-directories=/cyclist-code/,/motorcycle-road-code,/heavy-vehicle-road-code \
+nzta.govt.nz/resources/roadcode</pre>
+<p>参考：</p>
+<ul>
+<li><a href="http://www.linuxjournal.com/content/downloading-entire-web-site-wget">Downloading an Entire Web Site with wget | Linux Journal</a></li>
+<li><a href="http://www.thegeekstuff.com/2009/09/the-ultimate-wget-download-guide-with-15-awesome-examples/">The Ultimate Wget Download Guide With 15 Awesome Examples</a></li>
+<li><a href="http://www.rationallyparanoid.com/articles/wget.html">Wget usage examples - rationallyPARANOID.com</a></li>
+<li><a href="http://www.nightbluefruit.com/blog/2009/09/wget-recursive-ftp-and-exclude-directories/">wget, recursive ftp and exclude-directories | Night Blue Fruit Technology</a></li>
+<li><a href="http://sunsite.univie.ac.at/textbooks/wget/wget.html">GNU Wget Manual</a></li>
+<li><a href="http://www.linuxquestions.org/questions/fedora-35/wget-exclude-directories-option-broken-fc2-188034/">wget --exclude-directories option broken? (fc2)</a></li>
+</ul>
+<p><a id="more"></a><a id="more-354"></a>update_1:</p>
+<p>发现了，排除目录需要相对与域名完整的路径。所以应该改成 <code>--exclude-directories=/resources/roadcode/cyclist-code,/resources/roadcode/motorcycle-road-code,/resources/roadcode/heavy-vehicle-road-code</code>。另外，最后一行的URL应该改成 <code>nzta.govt.nz/resources/roadcode/</code> ，这样才能排除/roadcode 目录外的文件。</p>
+<p>update_2:</p>
+<p>发现<code>domain</code>加上<code>www.</code>与否可能造成不同。<a href="http://studylink.co.nz" target="_blank">studylink.co.nz</a>这个网站作为<code>--domain</code>的值时没有<code>www.</code>会导致recursive失败。</p>
+<p>update_3:</p>
+<p>增加参考：</p>
+<ul>
+<li><a href="http://www.cyberciti.biz/tips/linux-wget-your-ultimate-command-line-downloader.html">http://www.cyberciti.biz/tips/linux-wget-your-ultimate-command-line-downloader.html</a></li>
+</ul>

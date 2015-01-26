@@ -1,0 +1,166 @@
+---
+title: 'Course: ENGSCI 213'
+excerpt: "Although I wrote this late - as in the exam is already over - still I want
+  to write down outlines of all my courses.\r\n\r\nSo here is the contents of the
+  course ENGSCI 213, \"Mathematical Modelling 2 SE\" (i.e. \"for software engineering\").\r\n<pre>linear
+  algebra\r\n\tGaussian Elimination\r\n\t\trow operations / \r\n\t\tpivot position\r\n\t\t\tpivot
+  column\r\n\t\t\tpivot variable\r\n\t\t\tfree variable\r\n\t\trow reduced echolon
+  form\r\n\t\t\telementary matrix\r\n\t\t\tpermutation matrix"
+wordpress_id: 654
+wordpress_url: http://blog.easoncxz.com/?p=654
+date: '2013-06-24 14:26:08 +1200'
+date_gmt: '2013-06-24 02:26:08 +1200'
+categories:
+- study
+tags: []
+comments: []
+---
+<p>Although I wrote this late - as in the exam is already over - still I want to write down outlines of all my courses.</p>
+<p>So here is the contents of the course ENGSCI 213, "Mathematical Modelling 2 SE" (i.e. "for software engineering").</p>
+<pre>linear algebra
+	Gaussian Elimination
+		row operations / 
+		pivot position
+			pivot column
+			pivot variable
+			free variable
+		row reduced echolon form
+			elementary matrix
+			permutation matrix<a id="more"></a><a id="more-654"></a>
+	trivial solution
+	linear combination
+		span
+	linear independence
+	invertible matrix
+		properties
+	LU factorization
+		partial pivoting
+			* rook pivoting
+			* full pivoting
+	transformations
+		linear transformation
+			onto
+			one-to-one
+			translation &amp; homogeneous
+	subspace
+		column space of a matrix
+		null space of a matrix
+		basis
+			coordinate vector (of a point/vector) relative to a basis
+		dimension (of a subspace)
+		rank (of a matrix)
+			 invertible matrices
+	determinant
+		~ of triangular matrices
+		~ and row operations
+		* the proportional change of the "area" of the "unit cube"
+	eigenvalue
+		(an) eigenvector (corresponding to an eigenvalue)
+		diagnolizable matrices
+		the Power Method
+			the Inverse Power Method
+	affine combination
+		affine span
+		standard homogeneous form
+		affinely dependent
+		barycentric coordinates
+	iterative methods for linear systems of equations
+		Jacobi Method (simultaneous corrections)
+			matrix form
+		Gauss-Seidel Method (sequential corrections)
+			matrix form
+		convergence considerations
+			Frobenius Norm
+data analysis
+	using R
+	mean, standard deviation, variance
+	centre, spread, (!!) skewness
+	confidence interval
+		standard error
+	!! hypothesis testing (general)
+		null hypothesis / alternative hypothesis
+		"test statistic"
+		"p-value"
+	(testing normality)
+		normal quantile-quantile plot
+		Shapiro-Wilk Test
+			its hypothesis
+	Central Limit Theorum (just interpreting it)
+	transforming the data by taking logarithm
+		intention on normality
+		intention on equal variance
+	t-test
+		assumptions &amp; hypotheses
+		"one-sample t-test"
+		two-sample t-tests
+			variance-equality considerations
+			"Welch Two Sample t-test"
+	Levene Test
+		its hypothesis
+		interpreting R output
+	One-way analysis of variance
+		assumptions &amp; hypotheses
+		why it works
+			(intending to understand the "ANOVA Table")
+			degrees of freedom
+		Tukey Intervals vs. Bonferroni Correction
+Probability
+	Probability
+		Frequentist View vs. Subjectivist View
+		Sample Space
+		Event
+			(Null Event)
+		(n) Mutually Exclusive Events
+		Partition
+			partitioning a sample space
+			partitioning an event
+		Probability Distribution
+			Discrete ~
+		Partition Theorum
+		Bayes' Theorum (up to the "extended form")
+		Statistical Independence
+			mutually independent
+	Discrete Probability Distributions
+		Probability Mass Function
+		Binomial D
+			Bernoulli Trial
+		Poisson D
+			~ Poission Process
+		Expected Value
+			linear combination
+		Variance
+			linear combination
+	Continuous Probability Distributions
+		Probability Function (density)
+		Distribution Function (cumulative)
+
+			properties
+		Uniform Distribution
+			properties / parameters
+		Exponential Distribution
+			'memoryless' property (e.g. `P(X&gt;=30|X&gt;=20)==P(X&gt;=10)`)
+			relationship with Poisson Distribution
+		Normal Distribution
+			~ nature, perhaps from Central Limit Theorum
+Markov Processes
+	Stochaistic Process
+		state
+		sample space
+		state space
+			finite ~
+			stationary ~
+		period
+			horizon
+				finite ~
+				infinite ~
+		Markov Property
+			Markov Process / Markov Chain
+			transition probability
+				"one step transition probabilities"
+				transition matrices `P[t]` (for period t)
+				"n step transition probabilites"
+				stationary ~
+			"value", `v[i,t]`, of being in state i during period t.
+			"total expected value for starting in state `i` over `t` periods", `V[i,t]`
+			Limiting Distribution
+			Stopping Problem</pre>

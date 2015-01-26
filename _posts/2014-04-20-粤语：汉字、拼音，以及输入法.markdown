@@ -1,0 +1,23 @@
+---
+title: 粤语：汉字、拼音，以及输入法
+wordpress_id: 1144
+wordpress_url: http://blog.easoncxz.com/?p=1144
+date: '2014-04-20 01:28:26 +1200'
+date_gmt: '2014-04-19 13:28:26 +1200'
+categories:
+- langue
+tags:
+- 粤语
+- 拼音
+- 输入法
+comments: []
+---
+<p>今日我发现咗哩个 Wikipedia 页面：<a href="http://zh.wikipedia.org/wiki/%E7%B2%B5%E8%AA%9E%E5%AD%97%E5%88%97%E8%A1%A8">粤语字列表</a>。之前，我就已经发现过<a href="http://en.wikipedia.org/wiki/Jyutping">粤拼</a>嘅存在，亦都早就喺度用紧<a href="https://code.google.com/p/rimeime/">中州韵</a> —— 于是，宜家卒之有练习嘅场所啦。</p>
+<p>噉样：我谂住揾几个常用，但系我又从来都冇留意过或者见过 —— 更咪话用过 —— 嘅字，作为例子嚟开个头<strong>写低</strong>一尐先啦。</p>
+<ul>
+<li>詏 (aao3)：「你个人正一包<strong>詏颈</strong>嘅；人话东你就话西！」</li>
+<li>屙 （o1):「等我一阵 —— 我去厕所<strong>屙 duk3 尿</strong>先。」</li>
+<li>畀 (bei2)：「咪畀佢走甩啊！」「唔该可唔可以借你嘅电话嚟(?lei4)<strong>畀我</strong>用下啊？」</li>
+<li>尐 (di1)：「<strong>哩尐嘢</strong>唔系垃圾系乜啊？」</li>
+</ul>
+<p>今日写住咁多先啦；估计唔讲粤语嘅人睇住已经会十分攰噶喇。</p>

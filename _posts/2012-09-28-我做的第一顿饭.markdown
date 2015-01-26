@@ -1,0 +1,53 @@
+---
+title: 我做的第一顿饭
+excerpt: 前几天，我做了我这辈子真正意义上的第一顿饭，i.e. 从冷到热的加工都是自己完成的。我的期望是“能吃、不难吃”。成果令我十分满意，并且恰好初涉了我颇感兴趣的一种烹调手段：焖。我希望给自己记下这次经历；说不定也会对某些和我一样的hello-world级厨师有少许帮助。
+wordpress_id: 147
+wordpress_url: http://blog.easoncxz.com/?p=147
+date: '2012-09-28 23:44:55 +1200'
+date_gmt: '2012-09-28 11:44:55 +1200'
+categories:
+- life
+tags:
+- 下厨房
+comments: []
+---
+<p>前几天，我做了我这辈子真正意义上的第一顿饭，i.e. 从冷到热的加工都是自己完成的。我的期望是“能吃、不难吃”。成果令我十分满意，并且恰好初涉了我颇感兴趣的一种烹调手段：焖。我希望给自己记下这次经历；说不定也会对某些和我一样的hello-world级厨师有少许帮助。<a id="more"></a><a id="more-147"></a></p>
+<p>我做的是灼白菜和土豆焖羊排。先说简单的吧：</p>
+<h4>灼白菜</h4>
+<p>按照“能吃、不难吃”的要求，这个相当的简单。</p>
+<ol>
+<li>用锅烧水</li>
+<li>洗菜、切菜</li>
+<li>水开后：把菜放到水里</li>
+<li>煮大概5~8 min</li>
+<li>期间随便下油/盐</li>
+<li>关火，装盘子</li>
+<li>也可以在装盘子之后下酱油/盐</li>
+</ol>
+<h4>土豆焖羊肉</h4>
+<p>这个稍微复杂点，但是技术含量不高。</p>
+<ol>
+<li>拿羊排去解冻
+<ol>
+<li>*去除感觉多余的肥肉</li>
+</ol>
+</li>
+<li>用锅烧水</li>
+<li>将解了冻的羊排用自来水洗下
+<ol>
+<li>*将洗完的羊肉放到锅里灼一下，约1 min</li>
+<li>*将锅里的水倒掉</li>
+<li>*将羊排重新用自来水洗一遍</li>
+<li>*重新烧开一锅水</li>
+</ol>
+</li>
+<li>将羊排放到锅里<strong>（注意：最好确保此时的水位较高。我会建议约羊排1.5倍的高度或以上的水位高度。这是为了避免煮干的危险。）</strong></li>
+<li>煮约30 min。同时，刨、切、洗土豆</li>
+<li>注意看火，避免烧干。30 min过后，放入土豆</li>
+<li>随便放些油/盐。我还放了胡椒粉</li>
+<li>再烧20~30 min，直到锅里的水变成浓的…汁</li>
+<li>装盘子</li>
+</ol>
+<p>上面的步骤3.1~3.4只是想用热水进一步洗干净羊排而已；1.1也是随便的。</p>
+<p>就是这样啦。我倒是吃饭吃到一半的时候才想起来貌似应该拍照——于是照片上的情景也就不怎么<em>美观</em>了：</p>
+<p>[caption id="" align="alignnone" width="384"]<a href="https://epynza.sn2.livefilestore.com/y1pV40Nl5i-3ebV0NIlt1p9nEQ4v2TybOYt_a_55vXeAwm_eLn4-eCUK-LtBDYa7Z12Nbqr-qXuq12rkrYUH3iMYpp4ShFOtptB/IMG_20120907_180524.jpg?psid=1" target="_blank"><img class="  " title="第一顿饭" src="https://epynza.sn2.livefilestore.com/y1pV40Nl5i-3ebV0NIlt1p9nEQ4v2TybOYt_a_55vXeAwm_eLn4-eCUK-LtBDYa7Z12Nbqr-qXuq12rkrYUH3iMYpp4ShFOtptB/IMG_20120907_180524.jpg?psid=1" alt="我的第一顿饭的照片" width="384" height="288" /></a> 剩菜残羹[/caption]</p>

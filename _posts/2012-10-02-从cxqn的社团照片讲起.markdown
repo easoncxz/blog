@@ -1,0 +1,46 @@
+---
+title: 从cxqn的社团照片讲起
+wordpress_id: 280
+wordpress_url: http://blog.easoncxz.com/?p=280
+date: '2012-10-02 22:07:22 +1300'
+date_gmt: '2012-10-02 10:07:22 +1300'
+categories:
+- thinking
+tags:
+- 社团
+comments:
+- id: 731
+  author: Enigma.H
+  author_email: enigmahuang@gmail.com
+  author_url: http://ienigmahuang.tk
+  date: '2013-03-31 14:27:28 +1300'
+  date_gmt: '2013-03-31 02:27:28 +1300'
+  content: cxqn = ？我在推特上和微博上都关注了这个帐号，是HF的一个社团Or几个人Or一个人？这个帐号是一个同学告诉我的，说是去年（2012）年省科创的时候HF那个广义费马点算法的人的帐号。我那天下午过去和他们交流过，后来一直想联系，却没有联系上……So
+    cxqn是属于谁的帐号？
+- id: 732
+  author: Eason Chen
+  author_email: easoncxz@gmail.com
+  author_url: ''
+  date: '2013-03-31 14:49:21 +1300'
+  date_gmt: '2013-03-31 02:49:21 +1300'
+  content: 你的「同学」是C离散吧？……到这来竟然留言问 @cxqn 为何人…给你个提示， @cxqn 是个自然人。剩下的，你自己 @ 他去问吧。
+- id: 834
+  author: chenxiaoqino
+  author_email: chenxiaoqino@126.com
+  author_url: http://blog.cxqn.info
+  date: '2013-04-17 15:21:32 +1200'
+  date_gmt: '2013-04-17 03:21:32 +1200'
+  content: "他本该直接google的。\r\n\r\n你为何用了\"她\"？"
+- id: 842
+  author: Eason Chen
+  author_email: easoncxz@gmail.com
+  author_url: ''
+  date: '2013-04-19 03:01:22 +1200'
+  date_gmt: '2013-04-18 15:01:22 +1200'
+  content: Typo. Now fixed.
+---
+<p>留在脑子里的东西才是有意义的；cxqn的照片我就不重复发了。</p>
+<p>cxqn的照片让我想起不少。感觉hf近年来似乎越来越…多元化/多样化了。『共同成就明天的商业精英』？『你是程序员？代码geek？』『特效电影，三维建模』？想来这些都是多么令人激动的东西。</p>
+<p>bdsc的主流声音大概是『蓝网球』/『橄榄球』/『舞台表演』/『越野跑』。</p>
+<p>hf的社团给人的感觉是十分追求上进的：事情都是该去做的，可是环境、机构、制度不支持我们做；那么我们就要硬做，就要做好。社团，凭借其『参与的强自主选择性』，或许是一个学生/一个人归属感最强的集体。</p>
+<p>我忽然觉得我以前参与的太少了。可是不见得我做到了什么别的。我到底做了些什么呢？</p>

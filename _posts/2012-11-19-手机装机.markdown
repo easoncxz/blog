@@ -1,0 +1,23 @@
+---
+title: 手机装机
+wordpress_id: 462
+wordpress_url: http://blog.easoncxz.com/?p=462
+date: '2012-11-19 15:00:03 +1300'
+date_gmt: '2012-11-19 03:00:03 +1300'
+categories:
+- User
+tags:
+- Android
+- Shell
+- ADB
+comments: []
+---
+<pre lang="VIM script">FILES=./*.apk
+for f in $FILES
+do
+    adb install $f
+done</pre>
+<p>参考：</p>
+<ul>
+<li><a href="http://www.cyberciti.biz/faq/bash-loop-over-file/">Bash Shell Loop Over Set of Files</a></li>
+</ul>

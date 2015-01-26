@@ -1,0 +1,18 @@
+---
+title: 瞬间
+wordpress_id: 1120
+wordpress_url: http://blog.easoncxz.com/?p=1120
+date: '2014-03-22 01:22:17 +1300'
+date_gmt: '2014-03-21 13:22:17 +1300'
+categories:
+- lite
+- jabber
+tags: []
+comments: []
+---
+<p>当 @txyyss 表示「你还年轻嘛」的时候；</p>
+<p>当 @FrankFJY 骑在车上一脸兴奋的时候；</p>
+<p>当 @pierre3x 说 "do you wanna come play table tennis" 的时候；</p>
+<p>当董小姐仿佛无条件地答应的时候；</p>
+<p>当和 @NeroLCM 相视一笑一叹息的时候 ——</p>
+<p>是很有「存活」感的时候。</p>

@@ -1,0 +1,74 @@
+---
+title: Java I/O
+wordpress_id: 1200
+wordpress_url: http://blog.easoncxz.com/?p=1200
+date: '2014-10-15 15:39:53 +1300'
+date_gmt: '2014-10-15 03:39:53 +1300'
+categories:
+- dev
+tags:
+- Java
+comments: []
+---
+<p>This post is a brief summary ("TL;DR") of the <a href="http://docs.oracle.com/javase/tutorial/essential/io/index.html">official Java tutorial lesson on Basic I/O</a>.</p>
+<p>stdin and stdout. <a href="http://www.mkyong.com/java/how-to-read-input-from-console-java/">At first glance</a>, it <strong>so</strong> complicated! This post should clear the cloud up.</p>
+<h2>Streams</h2>
+<p>It all starts from "streams". There are two types of streams:</p>
+<ul>
+<li>"byte streams", which operates at the byte level, usually for binary data.</p>
+</li>
+<li>
+<p>"character streams", which operates at the character level by depending on an charset; usually for text data. This is implemented using byte streams.</p>
+</li>
+</ul>
+<p><code>InputStream</code> and <code>OutputStream</code> are the two <strong>byte</strong> stream base classes.</p>
+<p><code>Reader</code> and <code>Writer</code> are the two <strong>character</strong> stream base classes.</p>
+<h2>File I/O</h2>
+<p>Each of the four base stream classes have a "file" version, for use with files, as opposed to stdin/stdout. These four classes are:</p>
+<ul>
+<li><code>FileInputStream</code></li>
+<li><code>FileOutputStream</code></li>
+<li><code>FileReader</code></li>
+<li><code>FileWriter</code></li>
+</ul>
+<p>Nothing special here.</p>
+<h2>Buffers</h2>
+<p>There are "buffered" versions of each of the four base stream classes. This means:</p>
+<ul>
+<li>For input, Java reads in one chunk of data at a time, and only makes more system calls when the buffer is <strong>empty</strong> (i.e. has all been exhausted / consumed by the program);</li>
+<li>For output, Java only writes to the buffer, until the buffer is <strong>full</strong>, at which point Java makes system calls to write the whole buffer out.</li>
+</ul>
+<p>The four buffered versions are:</p>
+<ul>
+<li><code>BufferedInputStream</code></li>
+<li><code>BufferedOutputStream</code></li>
+<li><code>BufferedReader</code></li>
+<li><code>BufferedWriter</code></li>
+</ul>
+<p>These buffered versions are <em>decorators</em> of (i.e. both inheriting from, and aggregating a) the base, non-buffered versions, so the constructor of a buffered class takes a non-buffered instance as an argument.</p>
+<h2>Adapting a byte stream into a character stream</h2>
+<p>This can be done through these two classes:</p>
+<ul>
+<li><code>InputStreamReader</code></li>
+<li><code>OutputStreamWriter</code></li>
+</ul>
+<p>They each wrap around a byte stream (by taking an instance of a byte stream as a constructor argument), and provides the interface of (by inheriting from) a character stream.</p>
+<p>Obviously, a charset is needed.</p>
+<h2>Scanning and formatting</h2>
+<p>A "scanner" turns data (or say, bytes) from the stream into meaningful <strong>tokens</strong>, like an <code>int</code>.</p>
+<p>A "formatter"(if I may use the word) does the opposite: it turns tokens back into data.</p>
+<p><strong>These are the nice things you'll actually use.</strong></p>
+<p>The scanner class is:</p>
+<ul>
+<li><code>Scanner</code>, which seems to input from a <strong>byte stream</strong>.</li>
+</ul>
+<p>A <code>Scanner</code> takes an <code>InputStream</code> as a constructor argument, and then provides all the <code>hasNextBigInteger</code>, <code>nextLine</code> stuff.</p>
+<p>There doesn't seem to be such thing as a "Printer"; but there are these two Java classes:</p>
+<ul>
+<li><code>PrintStream</code>, which outputs to a <strong>byte</strong> stream</li>
+<li><code>PrintWriter</code>, which outputs to a <strong>character</strong> stream</li>
+</ul>
+<p>The familiar <code>System.out</code> is indeed a <code>PrintStream</code>, which provides all the <code>print</code>, <code>println</code>, <code>printf</code>, and <code>format</code> methods.</p>
+<h2>That's all!</h2>
+<p>I have been using Java every now and then for quite a while, but I seldom needed to do standard I/O - it was more often some OOP in some framework, like Android.</p>
+<p>I might be spoilt by Python with regards to I/O - just an <code>input()</code> call, and it's all done. The Java stuff, which I talked about in this article, seemed <strong>so</strong> complicated, that I glanced, and then can never bother to figure out how it's actually done. I used C++ a tiny bit for one programming contest, and encountered the idea of a "stream" - which made the Java stuff less intimidating. Eventually - e.g. now - I figured the Java stuff out.</p>

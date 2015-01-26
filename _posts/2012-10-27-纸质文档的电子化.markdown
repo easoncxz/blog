@@ -1,0 +1,66 @@
+---
+title: 纸质文档的电子化
+excerpt: "我近来通过扫描来电子化了我的许多（约2kg）文档，发现并解决了许多问题。在 @goldengrape 的建议之下，写下此文供阁下参考。\r\n\r\n先说说我的情况：\r\n<ul>\r\n\t<li>我是个学生，所以要扫描的文档多数是卷子，另外有书本/册子etc。</li>\r\n\t<li>我在学校上课，所以学校有『一体机』供我使用。</li>\r\n</ul>\r\n通过这个电子化活动，我希望：\r\n<ul>\r\n\t<li>我希望文档最终成为
+  jpg或pdf</li>\r\n\t<li>我口袋里随时有我的 全部/近来大部分 文档</li>\r\n\t<li>我的文档不会随着 使用/转移 等损坏</li>\r\n\t<li>我的文档可以十分方便地进行
+  复制/分发/转移/存放/整理</li>\r\n\t<li>我可以在不变的位置长时间存放我的文档而不用付出什么代价（请试想『从楼梯地下翻出封满灰尘的两箱旧课本』的情景！）</li>\r\n</ul>\r\n我可用的工具的特点：\r\n<ul>\r\n\t<li>卷子多数有不错的纸质</li>\r\n\t<li>一体机的扫描功能要求我将待扫描的纸张放到一个筐里，机器将从框里把纸张一张张地吸进去-扫描-吐出来"
+wordpress_id: 396
+wordpress_url: http://blog.easoncxz.com/?p=396
+date: '2012-10-27 22:09:17 +1300'
+date_gmt: '2012-10-27 10:09:17 +1300'
+categories:
+- User
+tags: []
+comments:
+- id: 66874
+  author: google plus age limit
+  author_email: carolinelarcombe@yahoo.com
+  author_url: http://www.test.org
+  date: '2014-06-12 18:36:14 +1200'
+  date_gmt: '2014-06-12 06:36:14 +1200'
+  content: "Hmm is anyone else having problems with the images on this blog \r\nloading?
+    I'm trying to figure out if its a problem on my end \r\nor if it's the blog. Any
+    feed-back would be greatly appreciated."
+---
+<p>我近来通过扫描来电子化了我的许多（约2kg）文档，发现并解决了许多问题。在 @goldengrape 的建议之下，写下此文供阁下参考。</p>
+<p>先说说我的情况：</p>
+<ul>
+<li>我是个学生，所以要扫描的文档多数是卷子，另外有书本/册子etc。</li>
+<li>我在学校上课，所以学校有『一体机』供我使用。</li>
+</ul>
+<p>通过这个电子化活动，我希望：</p>
+<ul>
+<li>我希望文档最终成为 jpg或pdf</li>
+<li>我口袋里随时有我的 全部/近来大部分 文档</li>
+<li>我的文档不会随着 使用/转移 等损坏</li>
+<li>我的文档可以十分方便地进行 复制/分发/转移/存放/整理</li>
+<li>我可以在不变的位置长时间存放我的文档而不用付出什么代价（请试想『从楼梯地下翻出封满灰尘的两箱旧课本』的情景！）</li>
+</ul>
+<p>我可用的工具的特点：</p>
+<ul>
+<li>卷子多数有不错的纸质</li>
+<li>一体机的扫描功能要求我将待扫描的纸张放到一个筐里，机器将从框里把纸张一张张地吸进去-扫描-吐出来<a id="more"></a><a id="more-396"></a></li>
+<li>一体机在完成一筐扫描之后可以把结果按照『一封邮件=一个jpg附件=一张原本纸』/『一封邮件=一个pdf=一筐原本』的模式发送到我邮箱里</li>
+<li>我用Gmail</li>
+<li>我有Adobe Acrobat</li>
+</ul>
+<p>好了，这些就是我的情况。于是我遇到一系列的问题了：</p>
+<ul>
+<li>一体机在意图把一张纸吸进去的时候会卡纸，因为这张纸本是一本本子的一页，是我裁下来的，但是装订边沿卷曲。我用的那台一体机不讨厌 毛躁/残缺 ，但是讨厌卷曲, which 对于我而言是很常见的情况。</li>
+<li>使用『一封邮件=一个pdf=一筐原本』模式的时候附件会超大，所以需要我逐次逐次扫描。但是每『次』扫描需要我重新在小小触摸屏上输入一次我的邮箱，十分费功夫。</li>
+<li>我Gmail上的一大堆附件不知道怎么下载下来。网上的说法常见的有『转发整个对话给自己-&gt;download all attachments』，但是由于我附件大小绝对超一封邮件的限制，所以这个方法不可行。</li>
+<li>有很多纸张上面有两页内容的，例如一本书摊开的两页的复印稿。我没有什么耗时少点的裁剪方法。</li>
+</ul>
+<p>仅凭我可用的资源如上述，我没有什么窍门地硬做了不少。我的意思是：</p>
+<ul>
+<li>扫描的时候卡纸了我就亲自把纸捻平重新喂给机器。</li>
+<li>下载附件的时候点『转发整个对话』，然后在草稿视图里那个整合了所有附件的一个列表里一个个附件来单击。</li>
+<li>硬是用photoshop进行裁剪。</li>
+</ul>
+<p>当然，这是慢地不行的。我很快就受不了了。根据『凡是繁琐的事情都应该有办法让机器全部一起搞定』的原则，我hack了下，找到了以下窍门：</p>
+<ul>
+<li>喂纸的时候应该令有卷曲的一条装订边的原本的装订边平行于原本的前进方向放置。选装什么的好办，windows explorer复选-&gt;右键旋转就行了。</li>
+<li>下载附件应该使用一些Gmail附件下载工具，例如『GearMage Mail Attachment Downloader』。当然，这个工具令我感到恶心粗糙不已；但是用着Google二步验证的『Application Specific Password』来授权这个问我要密码的小痨应用，我感到十分舒服。毕竟，把事情搞定了才是最重要的。</li>
+<li>对于『一张纸上写着原本的两页』那些图片，我的处理方法是在windows explorer里先复选了属于同一份原本的所有有这种一纸两页现象的图片，然后一起创建副本（i.e. 复选，ctrl+(drag-&gt;drop到原处)即可）。生成了pdf之后，再使用<br />
+Acrobat的crop功能，然后对『每pdf页都重复了』的范围的奇偶数页分别批量进行不同的crop，各crop取那『一纸一图两original页』的其中一页即可。</li>
+</ul>
+<p>就是这样了。还是『奇偶数页不同的批量crop』比较巧妙。哦对了，至于如何生成pdf，Acrobat给我添加了一个windows explorer的邮件菜单，所以我复选-&gt;combine supported files in Acrobat 就行了；从一体机那里开始所有的jpg文件就已经有可供Acrobat/windows explorer排序用的文件名了，『ctrl+(drag-&gt;drop到原处)』产生的文件在windows explorer/Acrobat中也是恰当地（i.e. 像拉链一样地）排列着的，所以没有排序的问题。</p>

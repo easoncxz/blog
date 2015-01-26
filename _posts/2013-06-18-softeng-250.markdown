@@ -1,0 +1,163 @@
+---
+title: 'Course: SOFTENG 250'
+excerpt: "Here is the first course I bothered to make an outline for:<a href=\"http://web.ece.auckland.ac.nz/uoa/home/about/our-programmes-and-courses/our-courses/softeng-courses\"
+  target=\"_blank\"> SOFTENG 250</a>. The intention of this outline is to give \"stopping
+  points\" on what you need to learn about for the purpose of this course. In other
+  words, \"this is what they taught\".\r\n\r\nNote that most pages contain a lot more
+  information that is required by the course. You should browse the pages only with
+  the intention of understanding the concept that is mentioned here.\r\n<pre>- <a
+  title=\"python.org\" href=\"http://docs.python.org/2/tutorial/index.html\" target=\"_blank\">python</a>\r\n\t-
+  recursion\r\n- <a title=\"wikipedia\" href=\"http://en.wikipedia.org/wiki/Abstract_data_type\"
+  target=\"_blank\">abstract data type</a>\r\n- <a title=\"wikipedia\" href=\"http://en.wikipedia.org/wiki/Time_complexity\"
+  target=\"_blank\">time complexity</a>\r\n\t- asymtotic growth rate\r\n\t\t- \\Omicron,
+  \\Omega, \\Theta\r\n\t- <a title=\"wikipedia\" href=\"http://en.wikipedia.org/wiki/Amortized_analysis\"
+  target=\"_blank\">amortized analysis</a> (of time complexity)"
+wordpress_id: 641
+wordpress_url: http://blog.easoncxz.com/?p=641
+date: '2013-06-18 18:27:48 +1200'
+date_gmt: '2013-06-18 06:27:48 +1200'
+categories:
+- study
+tags: []
+comments:
+- id: 1559
+  author: 'Courses: Part 2, semester 1 &raquo; Eason.C&#039;s Blog'
+  author_email: ''
+  author_url: http://blog.easoncxz.com/?p=786
+  date: '2013-08-02 02:37:57 +1200'
+  date_gmt: '2013-08-01 14:37:57 +1200'
+  content: "[...] SOFTENG 250 - Introduction to Data Structures and Algorithms [...]"
+---
+<p>Here is the first course I bothered to make an outline for:<a href="http://web.ece.auckland.ac.nz/uoa/home/about/our-programmes-and-courses/our-courses/softeng-courses" target="_blank"> SOFTENG 250</a>. The intention of this outline is to give "stopping points" on what you need to learn about for the purpose of this course. In other words, "this is what they taught".</p>
+<p>Note that most pages contain a lot more information that is required by the course. You should browse the pages only with the intention of understanding the concept that is mentioned here.</p>
+<pre>- <a title="python.org" href="http://docs.python.org/2/tutorial/index.html" target="_blank">python</a>
+	- recursion
+- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Abstract_data_type" target="_blank">abstract data type</a>
+- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Time_complexity" target="_blank">time complexity</a>
+	- asymtotic growth rate
+		- \Omicron, \Omega, \Theta
+	- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Amortized_analysis" target="_blank">amortized analysis</a> (of time complexity)<a id="more"></a><a id="more-641"></a>
+- array-based list (<a href="http://opendatastructures.org/ods-java/2_Array_Based_Lists.html" target="_blank">example</a>)
+	- its operations' implementation
+	- its operatoins' running time
+- <a title="wikipedia" href="https://en.wikipedia.org/wiki/Linked_list" target="_blank">linked list</a>
+	- singly linked list
+	- doubly linked list
+	- sorted linked list
+
+	- implementations
+	- time complexities
+- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Stack_(abstract_data_type)" target="_blank">stack</a>
+	- implementations
+		- array-based
+		- linked list
+
+		- time complexities
+	- use: parsing postfix expressions (<a title="Google search" href="https://www.google.com/search?q=stack+postfix+expression" target="_blank">Google</a>)
+- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Queue_(abstract_data_type)" target="_blank">queue</a>
+	- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Double-ended_queue" target="_blank">deque</a> - double-ended queue
+	- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Priority_queue" target="_blank">priority queue</a>
+		- unbounded priority queue
+		- bounded priority queue
+
+	- implementations
+		- linear 
+			- array-based
+			- linked
+		- circular array-based (<a href="http://www.cs.utsa.edu/~wagner/CS3343/rec1/queue.html" target="_blank">example</a>)
+		- heap (see below)
+			- array-based
+			- linked
+		- fixed-size array of linked-lists (for BPQ)
+
+	- time complexities
+- hasing
+	- hash <a title="wikipedia" href="http://en.wikipedia.org/wiki/Hash_table" target="_blank">table</a>
+	- hash <a title="wikipedia" href="http://en.wikipedia.org/wiki/Hash_function" target="_blank">function</a>
+
+	- operations (add, remove etc.)
+	- collision resolution
+		- open addressing, a.k.a. close hashing
+			- clustering
+			- linear probing
+				- simple linear probing (slot = (home + i) % SIZE)
+				- modified linear probing (slot = (home + c * i) % SIZE)
+			- quadratic probing (slot = (home + c ∗ i^2 ) % SIZE)
+			- double hashing (slot = (home + hash2(key) ∗ i) % SIZE
+		- closed addressing, a.k.a. open hashing, separate chaining
+	- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Hash_table#Key_statistics" target="_blank">load factor</a> &amp; performance
+	- typical hash functions (e.g. modulus)
+- <a title="wikipedia" href="https://en.wikipedia.org/wiki/Tree_(graph_theory)" target="_blank">tree</a>
+	- concepts: node, vertex, edge, arc, path, parent, child, ancestor, descendent, interior, leaf, width, height, depth, level
+	- binary tree
+		- implementation
+			- linked
+
+		- operations
+		- full binary tree ("0 or 2")
+		- perfect binary tree ("2^n - 1")
+		- complete binary tree ("leafs on left")
+		- traversal
+			- level order
+			- inorder, preorder, postorder
+				- algorithms
+					- recursive
+		- use: arithmetic expressions
+			- [in/pre/post]fix
+			- parsing/formatting
+	- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Heap_(data_structure)" target="_blank">heap</a>
+		- binary heap
+		- conceptual algorithms for operations (add, remove etc.)
+		- implementations
+			- array-based
+			- linked
+		- use
+			- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Priority_queue#Usual_implementation" target="_blank">priority queue</a>
+	- binary search tree
+		- inorder traversal
+		- conceptual algorithms for operations (add, remove etc.)
+		- (conceptual) time compleities
+		- AVL tree
+			- conceptual algorithms
+	- Huffman Encoding
+- sorting
+	- comparison-based sort
+	- stable sort
+
+	- bubble sort
+	- selection sort
+	- insertion sort
+	- merge sort
+	- quicksort
+		- in-place partition
+
+	- implementation
+	- performance
+		- time complexities
+
+		- sorted list
+		- almost-sorted list
+		- random list
+		- reversed list
+
+		- comparisons required
+		- swaps required
+	- choosing a sorting algorithm for a given scenario
+- graphs
+	- vertices, edges, arcs
+	- storage / representation
+		- adjacency matrix
+		- adjacency list
+		- operations (add, remove etc.)
+	- depth-first search
+		- implementation
+			- recursive
+			- iterative (using a stack)
+	- breadth-first search
+		- implementation
+			- iterative (using a queue)
+	- iterative-deepening depth-first search
+	- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Spanning_tree#Algorithms" target="_blank">spanning forest</a>
+		- tree arc, forward arcs, back arcs, cross arcs (<a href="http://www.cs.columbia.edu/~cs4203/files/W4203-Lec5.pdf" target="_blank">example</a>)
+- <a title="wikipedia" href="http://en.wikipedia.org/wiki/Recurrence_relation" target="_blank">recurrance relation</a>
+	- time complexity analysis of recursive code (<a href="http://www.cs.ucf.edu/~dmarino/ucf/cop3502/lec_biswas/recursion12.pdf" target="_blank">example</a>)</pre>

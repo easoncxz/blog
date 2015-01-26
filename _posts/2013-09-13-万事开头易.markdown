@@ -1,0 +1,75 @@
+---
+title: 万事开头易
+wordpress_id: 850
+wordpress_url: http://blog.easoncxz.com/?p=850
+date: '2013-09-13 18:10:56 +1200'
+date_gmt: '2013-09-13 06:10:56 +1200'
+categories:
+- writing
+tags: []
+comments:
+- id: 2466
+  author: emuyi
+  author_email: zhfyyq@gmail.com
+  author_url: ''
+  date: '2013-09-24 17:33:17 +1200'
+  date_gmt: '2013-09-24 05:33:17 +1200'
+  content: 今后一年我可能拾起来前端渗透，web security 什么的。要不要一起玩
+- id: 2554
+  author: enigmahuang
+  author_email: enigmahuang@gmail.com
+  author_url: http://ienigmahuang.tk
+  date: '2013-10-01 02:32:46 +1300'
+  date_gmt: '2013-09-30 14:32:46 +1300'
+  content: "个人觉得似乎很多人都多少有这个现象，不过有些人觉得不要紧有些人没有开那么多坑，然而很不幸我是开了很多坑然后坑死了自己的那种人。我大概从今年年初开始疯狂地反思自己过去18年持之以恒的的三分钟热度问题，现在似乎又有点矫枉过正——谁知道呢，起码现在对比试验还未完成。\r\n\r\n另外三分钟热度似乎也是后好处的，因为多少也算让一个人的知识面更广和技能更多。论专业，我们自然是比不过那些专修某一专业的人，那么兴趣爱好要到什么样的程度才算不是“三分钟热度”呢？是有一个绝对的标准，还是根据环境有不同的相对标准呢？这也是我一直还没有思考到满意答案的问题，希望你能谈谈你的看法。"
+- id: 2564
+  author: Eason Chen
+  author_email: easoncxz@gmail.com
+  author_url: ''
+  date: '2013-10-01 22:41:02 +1300'
+  date_gmt: '2013-10-01 10:41:02 +1300'
+  content: "我的理想方案是「不做则已，一做则不可仅限三分钟」。很多东西我<em>的确</em>是简直「不做」的，e.g. 历史、政治等；而凡是想做，而没有做到另自己满意的结果的事情，都属于「三分钟热度」。换言之，凡是不是「简直不做」的事情，而想着觉得爽不起来者，统统都算三分钟热度。\r\n\r\n我以一种不计可行性的标准要求每样事都做好；如果没有做好，虽然关系不大，但是会被评定为「不达标」，并因此需要改进。\r\n\r\n可一言以盖之曰「硬要样样都精通」。"
+- id: 2565
+  author: Eason Chen
+  author_email: easoncxz@gmail.com
+  author_url: ''
+  date: '2013-10-01 22:41:32 +1300'
+  date_gmt: '2013-10-01 10:41:32 +1300'
+  content: 好高端；木有接触过。怕怕。
+- id: 2589
+  author: enigmahuang
+  author_email: enigmahuang@gmail.com
+  author_url: http://ienigmahuang.tk
+  date: '2013-10-04 17:02:34 +1300'
+  date_gmt: '2013-10-04 05:02:34 +1300'
+  content: "「硬要样样都精通」！我一下子不知道说什么好了……以前从没碰到过这样强悍的人"
+- id: 2608
+  author: Eason Chen
+  author_email: easoncxz@gmail.com
+  author_url: ''
+  date: '2013-10-06 14:00:12 +1300'
+  date_gmt: '2013-10-06 02:00:12 +1300'
+  content: 哎，有些东西是自知「根本做不好」的，就没有被纳入到「样样」的总体中去了。何况「硬要…」只是对待我和你所面对着的问题的一种处理 方式/态度 ，对于采用这种
+    方式/态度 的人的能力不应该有提供任何信息。
+---
+<p>（本文为一山寨的<a title="geyan.com.cn" href="http://www.geyan.com.cn/txgy/gyxs/" target="_blank">格言新说</a>。）</p>
+<p>&nbsp;</p>
+<p>人称「万事开头难」。非也。</p>
+<p>&nbsp;</p>
+<p>我想「学习<a href="http://php.net/" target="_blank">php</a>」，于是建立了这个<a href="http://wordpress.org/" target="_blank">Wordpress</a>博客；博客不费太大功夫就建起来了，我也写了一两行php代码；可是这php开了头之后也就卡在这了。</p>
+<p>我想「学习<a href="http://developer.android.com/" target="_blank">Android开发</a>」，于是写了<a href="https://play.google.com/store/apps/developer?id=Xuzong+Chen" target="_blank">一两个</a>无关紧要的小app，不过也没有下文了。</p>
+<p>我想「学会使用Linux」，于是花了一些功夫装上了<a href="https://www.archlinux.org/" target="_blank">Arch</a>，学了一两条命令，不过更多的也不会了。</p>
+<p>我想「学习网页前端设计」，可是写了一些HTML和CSS之后也没有新的进展了（连Javascript都用不舒服真是羞辱）。</p>
+<p>我想「学习使用Web Framework」，可是找到一个<a href="https://www.heroku.com/" target="_blank">免费的平台</a>搭上了<a href="https://www.djangoproject.com/" target="_blank">某框架</a>写了<a title="herokuapp.com" href="http://hello-django-easoncxz.herokuapp.com/" target="_blank">个 Hello World</a> 之后就又没有下文了。我也试过用<a href="https://developers.google.com/appengine/" target="_blank">GAE</a>，仿照 <a title=".tk" href="http://zcxz.tk/pb/index.php?r=1" target="_blank">@cxqn 的剪贴板</a>也写了<a title="appspot.com" href="https://pb-easoncxz.appspot.com/" target="_blank">一个</a>，不过那照样也没有进展了。</p>
+<p>我想「学习一些入门的经济学」，于是在edX上找到了<a title="coursera.org" href="https://www.coursera.org/course/macroeconomics" target="_blank">一门课</a>，费了一些功夫把所有的讲座下载下来了，可是只看了一两堂就打算剩下的「迟些再看」。</p>
+<p>我想「了解数理逻辑与集合论」，于是因恰好<a title="auckland.ac.nz" href="http://web.ece.auckland.ac.nz/uoa/home/about/our-programmes-and-courses/our-courses/softeng-courses" target="_blank">SOFTENG 211</a>课上有讲而感到很高兴。不过无非是获知了一些诸如"<a title="wikipedia.org" href="http://en.wikipedia.org/wiki/Hilbert's_problems" target="_blank">Hilbert's problems</a>", <a title="wikipedia.org" href="http://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory" target="_blank">ZFC</a>之类的概念，想更为深入地思考却是虽希望但没有的。</p>
+<p>我想「了解，然后接受或抵制基督教」，在和同学聊了一些之后有所认识，令我可以开始读他们基督们的材料了；我想着要读读圣经看他们说的是啥——不过究竟一直也没有</p>
+<p>我想「学习法语」，于是若干时间前上了半个学期的「法语选修」，而现在恰好遇到了学汉语的外国同学以及一个法国朋友，于是找到了大量学习法语的<a href="http://french-linguistics.co.uk/" target="_blank">资源</a>，自己也会说那么两句法语——不过到头来持续的学习还是不知道如何维持。</p>
+<p>更有甚者，████████ █████ ██ ████████████ ██████。</p>
+<p>&nbsp;</p>
+<p>举了这么些例子，说明了什么呢？——这么多的事情，我<strong>统统都</strong>显然开了头了——「开了头」的意思是「我知道又什么有意思的事情存在，我知道有什么步骤、怎么做」。可是结果呢？「什么时候我想做的时候我再去做吧。」</p>
+<p>我感到我需要「做好」上面这些事情是颇为不容易的；需要花费许多功夫——还不一定能保证做到。如果「万事开头难」的话，既然「难」的事情我都已经做好了，为什么「不难」的事情却不知道如何能做好呢？这「只能说明」万事开头易咯。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>后话：</p>
+<p>As LCM has <a title="blog.liaocm.net" href="http://blog.liaocm.net/?p=150" target="_blank">quoted</a>, "Knowing the path is different from walking the path". 人称「三分钟热度」描述的也正是某些人从事某些事时所产生的现象——虽然其实我还是不承认自己是「三分钟热度」的（我毕竟的确不是嘛）。这种现象的产生未必是坏事。有可能这个现象是我偏好<a href="http://www.cogsci.rpi.edu/~rsun/sun-zhang-jcsr2004-f.pdf" target="_blank">top-down learning</a>的一种表现；有可能这说明"<a title="quora.com" href="http://abetterlife.quora.com/You-can-do-anything-if-you-stop-trying-to-do-everything" target="_blank">You can do anything if you stop trying to do everything</a>"；有可能这是<a title="twitter.com" href="https://twitter.com/proxyeh" target="_blank">所谓</a>「周身刀冇把利」的表现；有可能这其实并不成为「万事开头难」的反例，而反而说明其实「我离做好这些事情其实不远了」呢。</p>

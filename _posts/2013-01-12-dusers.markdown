@@ -1,0 +1,18 @@
+---
+title: D:\Users
+wordpress_id: 531
+wordpress_url: http://blog.easoncxz.com/?p=531
+date: '2013-01-12 04:32:38 +1300'
+date_gmt: '2013-01-11 16:32:38 +1300'
+categories:
+- User
+tags:
+- Windows
+- Users
+comments: []
+---
+<p>After finising <em>installing</em> Windows 7, at the time when a username is prompted for, pressing <code>SHIFT+F10</code> then running the following commands can have the Users folder put in a non-system drive.</p>
+<pre>robocopy "C:\Users" "D:\Users" /e /copyall /xj
+rmdir "C:\Users" /s /q
+mklink /j "C:\Users" "D:\Users"</pre>
+<p>&nbsp;</p>

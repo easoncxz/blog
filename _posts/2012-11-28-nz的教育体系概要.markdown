@@ -1,0 +1,33 @@
+---
+title: NZ的教育体系概要
+excerpt: "本文的主要意义在于让我自己在别处引用。\r\n\r\n5岁入学(?)；\"primary school\": 「小学」6年；\"intermediate
+  school\": 「初中」2年；\"secondary school\"/\"secondary college\"/\"college\": 「高中」5年。称呼各个年级的方法是流水编号，i.e.
+  year 1, year 2, ... , year 13.\r\n<h4>入学：小学、初中到高中</h4>\r\n不清楚。大概统统是按地段入学。反正我在高中注册的时候，直接「去学校，敲敲门，进去，约个『面试』时间」就行了；连所谓的「面试」也只是基本信息登记。\r\n<h4>教育体系：高中</h4>\r\n前两年儿戏，称之曰junior；后三年认真，称之曰senior。从小学直到junior似乎都是没有什么标准考试的；我估计「按科目上课」约莫是高中第一年(i.e.
+  yr 9)才有的事。NZ的高中分两个系统（或许还有别的）；这两个体系是<a href=\"http://www.cie.org.uk/\" target=\"_blank\">CIE</a>和<a
+  href=\"http://www.nzqa.govt.nz/qualifications-standards/qualifications/ncea/\" target=\"_blank\">NCEA</a>。以<a
+  href=\"http://www.auckland.ac.nz/uoa/\" target=\"_blank\">UoA</a>为例，大学<a href=\"http://www.auckland.ac.nz/uoa/home/about/admission-and-enrolment/ae-undergraduate-students/ae-entry-requirements/ae-domestic-students\"
+  target=\"_blank\">对不同的系统有不同的算分方法</a>以筛选学生。NCEA系统的细节下面说。"
+wordpress_id: 474
+wordpress_url: http://blog.easoncxz.com/?p=474
+date: '2012-11-28 21:18:38 +1300'
+date_gmt: '2012-11-28 09:18:38 +1300'
+categories:
+- life
+tags:
+- BDSC
+- NCEA
+comments: []
+---
+<p>本文的主要意义在于让我自己在别处引用。</p>
+<p>5岁入学(?)；"primary school": 「小学」6年；"intermediate school": 「初中」2年；"secondary school"/"secondary college"/"college": 「高中」5年。称呼各个年级的方法是流水编号，i.e. year 1, year 2, ... , year 13.</p>
+<h4>入学：小学、初中到高中</h4>
+<p>不清楚。大概统统是按地段入学。反正我在高中注册的时候，直接「去学校，敲敲门，进去，约个『面试』时间」就行了；连所谓的「面试」也只是基本信息登记。</p>
+<h4>教育体系：高中</h4>
+<p>前两年儿戏，称之曰junior；后三年认真，称之曰senior。从小学直到junior似乎都是没有什么标准考试的；我估计「按科目上课」约莫是高中第一年(i.e. yr 9)才有的事。NZ的高中分两个系统（或许还有别的）；这两个体系是<a href="http://www.cie.org.uk/" target="_blank">CIE</a>和<a href="http://www.nzqa.govt.nz/qualifications-standards/qualifications/ncea/" target="_blank">NCEA</a>。以<a href="http://www.auckland.ac.nz/uoa/" target="_blank">UoA</a>为例，大学<a href="http://www.auckland.ac.nz/uoa/home/about/admission-and-enrolment/ae-undergraduate-students/ae-entry-requirements/ae-domestic-students" target="_blank">对不同的系统有不同的算分方法</a>以筛选学生。NCEA系统的细节下面说。<a id="more"></a><a id="more-474"></a></p>
+<h4>高中</h4>
+<p>我所在的学校叫<a href="http://www.bdsc.school.nz/" target="_blank">BDSC</a>。BDSC每天5堂课，每堂课一个钟。每年5门课("subject")。学生自己可以选的科目的数量逐年递增，从1科到5科；不过选项范围会根据之前的选择收窄：见这个13年级<a href="http://www.bdsc.school.nz/new/images/uploads/Year_13_Option_Booklet_2012_for_2013.pdf" target="_blank">选课手册PDF</a>的第26页起。从刚才那个手册可以看到有很多概念，或者说专有名词；接下来进行解释。</p>
+<h4>NCEA</h4>
+<p>"assessment": 我称之曰「评估」。assessment分为"internal": 「内部」, "external": 「外部」这两种。internal不是统考，而是学生各自所在的学校主持的。internal多数不是做卷子的，而是实验之类的杂七杂八的。external就是统考啦。每个assessment值一定数目的"credit": 「学分」；注意，三个不同"level": 「级别」，即NCEA level: NCEA级别，的课的评估的学分是不同level的；一般year 11为level 1，year 12为level 2，year 13为level 3。简称L1, L2, L3。每个assessment的结果，或者说成绩，有（且竟然仅有！）4种不同的值："E: excellence", "M: merit", "A: achieved", "N: Not achieved"；我个人将这4种结果称作「优，良，中，样」。每个assessment所包含的<em>全部若干个</em>credits会<em>一起</em>被评定为，反正就是被认为是，N/A/M/E 之一的等级；与此同时，与这个assessment相关的那若干个credits便<em>一起</em>称作某等级的credits。</p>
+<p>关于这「N/A/M/E」有趣的是，「N/A/M/E」是大概<em>任何结果</em>的可能取值！每道题目是「A/M/E」三个难度之一；每个难度的题目都可以获得不高于难度名字的结果，例如M题目的可能结果是N/A/M；每张卷子，也即每个assessment，都根据拿到N/A/M/E的题目的<em>个数</em>来确定一个等级——每个评估有N/A/M/E四种可能等级；每个<em>科目</em>根据你所获得的M/E学分的多少进行"endorsement": 我称之为「表彰」——每个科目有M/E两种可能表彰等级；每张"certificate": 「证书」（，也即"NCEA"里的"C"；每通过个level获得一张，）也会根据从所有科目获得的学分中M/E学分的总数来进行"endorsement": 我同样称之为「表彰」——每个证书有M/E两种可能表彰等级。简直什么都是这「优良中样」啊！</p>
+<h4>讲完了</h4>
+<p>kiwi们较懒。</p>

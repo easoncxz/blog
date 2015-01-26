@@ -1,0 +1,33 @@
+---
+title: 开心的意义
+wordpress_id: 955
+wordpress_url: http://blog.easoncxz.com/?p=955
+date: '2014-01-12 20:56:20 +1300'
+date_gmt: '2014-01-12 08:56:20 +1300'
+categories:
+- thinking
+tags:
+- 开心
+- 财富
+comments: []
+---
+<p><a title="blog.easoncxz.com" href="http://blog.easoncxz.com/?p=150" target="_blank">以前</a>我对「开心」的认识是认为其不应作为目标。</p>
+<p>最近在 <a title="swombat.com" href="http://swombat.com/2014/1/10/money-and-wealth" target="_blank">Money and wealth</a> 这篇博文中接触到了一个新的观点：</p>
+<blockquote><p>Paras Chopra <a href="http://swombat.com/2013/12/27/real-use-of-money">said recently</a>, the real use of money (or rather, wealth) is to buy freedom.</p></blockquote>
+<p>呃，这两者看上去好像没有关系，但是有的。</p>
+<p>不妨且抛开「开心」是否应该作为目标这个问题不谈，将注意力放到「开心」的由来上。当能够做到自己想做的事情的时候，人不就开心了嘛；反之，如果无法做到自己想做的，或者必须做自己不想做的，那么不就不开心了吗？（我知道这里我基本上只是重复了上面的链接里的话。）</p>
+<p>将上面总结起来，就是「自由即开心」。</p>
+<p>而获得「自由」，如引文，是财富的真正用途。</p>
+<p>如果一个人作出了足够的劳动、贡献，创造了财富，那么他就（在「应然层面」上，应该」）能够「自由」，从而能够「开心」。</p>
+<p>假如一个人在「拥有财富」的时候，不会不适用他的财富来获得「自由」，那么：</p>
+<ul>
+<li>劳动、贡献的人能获得财富</li>
+<li>有财富的人会有自由（并且两者正相关）</li>
+<li>自由的人会开心</li>
+</ul>
+<p>所以「拥有财富」的人，或者说「富有」的人，会「开心」。</p>
+<p>注意，这不是说「开心」的人会富有（咦？貌似这个不用我强调？）——所以为了「创造财富、推动社会进步」的目的，光是「令」自己开心是没有任何用处的。</p>
+<p>换种说法，「开心」与否只是一种对自己创造的财富的半种衡量工具——如果不开心，那么一定没有创造（足够的）财富。注意，不能说「如果开心，那么我创造了足够的财富」——这正是为什么「开心」与否只是「半种」而不是「一种」衡量工具。</p>
+<p>结论就是，「不开心」的人应该去创造更多财富，而「目的为开心」的人则不一定创造了财富。</p>
+<p>最后附上一条 @starknight 几年前发的<a title="twitter.com" href="https://twitter.com/StarKnight/status/131282744968880128" target="_blank">一条推</a>：</p>
+<blockquote><p>在事物中追求意义的人最终找到的是痛苦，追求快乐的人倒是最接近意义本身。</p></blockquote>

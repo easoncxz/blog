@@ -1,0 +1,43 @@
+---
+title: HTML tags
+excerpt: "我终于成功用上了一个HTML标签整理的工具了。i.e., HTML tag \"tidy\"/\"beautify\"/\"prettify\"/...\r\n\r\n找到的方案是Sublime
+  Text 2 + Tag. 素材：\r\n<ul>\r\n\t<li><a title=\"Sublime Text 2\" href=\"http://www.sublimetext.com/2\"
+  target=\"_blank\">Sublime Text 2</a></li>\r\n\t<li><a title=\"Package Control\"
+  href=\"http://wbond.net/sublime_packages/package_control\" target=\"_blank\">Sublime
+  Package Control</a></li>\r\n\t<li><a title=\"Sublime Text: Tag\" href=\"https://github.com/SublimeText/Tag\"
+  target=\"_blank\">Tag</a></li>\r\n</ul>\r\n已知问题：\r\n<ul>\r\n\t<li><del>Sublime Text
+  2 的 portable 版本似乎用不了Package Control. 用安装版的Sublime吧。</del></li>\r\n\t<li>好在<a title=\"Sublime
+  Text 2 crack\" href=\"http://blog.easoncxz.com/?p=439\" target=\"_blank\">之前</a>在Sublime
+  Text 2的crack还是有效。</li>\r\n</ul>\r\n可以了。<code>ctrl+alt+f</code> 吧。"
+wordpress_id: 438
+wordpress_url: http://blog.easoncxz.com/?p=438
+date: '2012-11-16 11:13:03 +1300'
+date_gmt: '2012-11-15 23:13:03 +1300'
+categories:
+- User
+tags:
+- Sublime
+comments: []
+---
+<p>我终于成功用上了一个HTML标签整理的工具了。i.e., HTML tag "tidy"/"beautify"/"prettify"/...</p>
+<p>找到的方案是Sublime Text 2 + Tag. 素材：</p>
+<ul>
+<li><a title="Sublime Text 2" href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a></li>
+<li><a title="Package Control" href="http://wbond.net/sublime_packages/package_control" target="_blank">Sublime Package Control</a></li>
+<li><a title="Sublime Text: Tag" href="https://github.com/SublimeText/Tag" target="_blank">Tag</a></li>
+</ul>
+<p>已知问题：</p>
+<ul>
+<li><del>Sublime Text 2 的 portable 版本似乎用不了Package Control. 用安装版的Sublime吧。</del></li>
+<li>好在<a title="Sublime Text 2 crack" href="http://blog.easoncxz.com/?p=439" target="_blank">之前</a>在Sublime Text 2的crack还是有效。</li>
+</ul>
+<p>可以了。<code>ctrl+alt+f</code> 吧。<a id="more"></a><a id="more-438"></a></p>
+<p>--</p>
+<p>update:</p>
+<p>portable版本是<strong>可以</strong>用packages的。（想来要真是不能的话也挺搞笑的）</p>
+<p>安装Package Control的方法：</p>
+<ul>
+<li> 将<code>Package Control.sublime-package</code>拷到<code>/Data/Installed Packages/</code>.</li>
+<li>将含有一堆.py文件的Package/目录拷到/Data/Packages/</li>
+</ul>
+<p>Voilà! Package Control能用了！剩下的部分，portable版跟安装版一样。</p>

@@ -1,0 +1,88 @@
+---
+title: U880：刷机之类
+excerpt: "家里脑子貌似不太好，跟中移动弄了两台ZTE-T U880。现在都旧了，我在58上面<a href=\"http://gz.58.com/shouji/12433594838273x.shtml\"
+  target=\"_blank\">兜售</a>之余，也拿来体验刷机之类的事情。从无到有经弄坏，我得记录下我弄U880的经历——故此文。如果有不了解的概念，不妨先尝试在我这个博客里搜索下。\r\n<h3>正常情况</h3>\r\n<h5>0.
+  环境</h5>\r\n由于U880的ADB等驱动只有32位Windows的版本，所以需要32位系统。"
+wordpress_id: 501
+wordpress_url: http://blog.easoncxz.com/?p=501
+date: '2013-01-08 21:25:17 +1300'
+date_gmt: '2013-01-08 09:25:17 +1300'
+categories:
+- User
+tags:
+- 刷机
+- Android
+- U880
+- ZTE
+- IMEI
+comments: []
+---
+<p>家里脑子貌似不太好，跟中移动弄了两台ZTE-T U880。现在都旧了，我在58上面<a href="http://gz.58.com/shouji/12433594838273x.shtml" target="_blank">兜售</a>之余，也拿来体验刷机之类的事情。从无到有经弄坏，我得记录下我弄U880的经历——故此文。如果有不了解的概念，不妨先尝试在我这个博客里搜索下。</p>
+<h3>正常情况</h3>
+<h5>0. 环境</h5>
+<p>由于U880的ADB等驱动只有32位Windows的版本，所以需要32位系统。<a id="more"></a><a id="more-501"></a></p>
+<h5>1. 驱动</h5>
+<p>做什么刷机之类的事情，首先要有驱动。有某位「MAL神族论坛」的「大眼帮主」做了一个叫做「<a href="http://bbs.gfan.com/android-3257476-1-1.html" target="_blank">ZTE-T U880 Tool</a>」的工具。这个工具可以安装所有所需的驱动！工具看起来是这个样子的：<a href="http://hi.csdn.net/attachment/201203/23/0_1332465285lOv2.gif" target="_blank">如图</a>。估计<a href="https://www.google.com/search?q=zte-t+u880+tool" target="_blank">随便 Google</a>一下也能找到它；我用的是版本1.5.0。正常来讲，点「××自动」就可以装好全部驱动了。注：我一直没有理会"JoinMe"。</p>
+<h5>2. root</h5>
+<p>无论是2.2还是2.3的系统，貌似都可以使用<a href="http://www.superoneclick.net/" target="_blank">SuperOneClick</a>来root。随便Google即可下载此工具；我用的是版本1.9.1。SuperOneClick依赖于：ADB驱动、Android设备上设置了「USB调试」、「.net framework 2.0以上（win7已内置）」。我随便搜来的<a href="http://http://ibbs.91.com/thread-211319-1-1.html" target="_blank">一个帖</a>有具体使用细节；但是其实简单说来就是「连上ADB，点root」，就这么简单。</p>
+<h5>3. recovery</h5>
+<p>我是用开Galaxy Nexus的；我以为什么设备刷recovery应该直接「连上fastboot，执行fastboot flash recovery some-recovery.img」，但是貌似别的设备难以做到「连上fastboot」这个操作。好在，其实是可以通过ADB命令进行刷recovery的。相比于Galaxy Nexus的情况，好处是不需要ADB以外的驱动，坏处是貌似难以给开不了机的刷新的recovery。</p>
+<p>「ZTE-T U880 Tool」那个「Recovery××」按钮会解压出一个recovery文件夹在某处。直接将想刷的recovery那个img文件放到与recovery.bat同一文件夹内即可双击那个bat脚本文件刷recovery。此操作依赖于：ADB驱动、手机已root。</p>
+<h5>4. 「刷ROM」</h5>
+<p>貌似又称「卡刷」。貌似这个说法的意思是「在recovery下安装系统的zip文件」，而与下文的「刷bin」相区别。我就不管这个了。</p>
+<h5>5. 刷bin</h5>
+<p>貌似又称「线刷」。「bin」是ZTE自己编出来作为自己「系统软件」的「包（无论这是什么意思）」的后缀名。「刷bin」较「刷ROM」的区别貌似是在于能触动更低层面的东西，貌似例如Android设备上的<a href="http://www.addictivetips.com/mobile/android-partitions-explained-boot-system-recovery-data-cache-misc/" target="_blank">分区</a>。bin包有官方的和民间的；我分别刷过。</p>
+<p>刷bin依赖于ADB以外的驱动；我暂时猜测那正是fastboot驱动（我未验证我的猜测）。不过反正，「ZTE-T U880 Tool」那时已经装上了这个驱动了。这个驱动所驱动的设备在设备管理器里的名字叫做"Marvell (R) WTP: Tools package USB Driver for MMP2"（<a href="http://hi.csdn.net/attachment/201203/23/0_13324662761I7B.gif" target="_blank">如图</a>）。</p>
+<p>刷bin能使用的工具我至今见到过4个，用过前3个：</p>
+<ul>
+<li>官方的「U880一键式升级工具」（<a href="http://hi.csdn.net/attachment/201202/6/0_1328493300V7lu.gif" target="_blank">如图</a>）；随本文「ZTE原厂Android 2.2.2」而来。</li>
+<li>「单路刷机工具」，文件名"Sales_DL_×××"（<a href="http://hi.csdn.net/attachment/201202/6/0_1328490219AqxO.gif" target="_blank">如图</a>）；随本文「ZTE-T U880 Tool」而来。</li>
+<li>奇怪的、貌似是酷派的"MultiDownloader"，貌似人称「多路刷机工具」（<a href="http://ww3.sinaimg.cn/large/7dfce555tw1e0m8syhbtsj.jpg" target="_blank">如图</a>）；下文有相关链接。</li>
+<li>不知哪来的界面简陋的「升级工具.exe」（<a href="http://hi.csdn.net/attachment/201203/23/0_1332465040yy4e.gif" target="_blank">如图</a>）；随下文的「llnhhy 2.3.7」而来。</li>
+</ul>
+<p>除酷派那个外，所有的「刷bin」工具都有一个共同点，那就是存在「开始按钮从灰色变成可用」这么一个操作 步骤/现象 。我的建议是你下载那个官方一键工具试试，你就知道是怎么回事了。</p>
+<p>ZTE官网提供的「<a href="http://www.zte.com.cn/cndata/mobile/software/201204/P020120406604233949304.zip" target="_blank">ZTE原厂Android 2.2.2</a>」的教程<a href="http://bbs.hiapk.com/thread-3629886-1-1.html" target="_blank">这里</a>有。</p>
+<p>刷bin步骤：</p>
+<ul>
+<li>手机关机</li>
+<li>按着「音量加」开机，见到「FLASH MODE ×××」</li>
+<li>插线，检查设备管理器的通用串行总线控制器栏目系下是否有「Marvell (R) WTP ×××」的条目。要有。</li>
+<li>拔线，卸下手机电池</li>
+<li>打开一个刷bin工具（上述4个之一）</li>
+<li>插线</li>
+<li>等待「开始按钮从灰色变成可用」</li>
+<li>*选bin文件（如果工具需要你选的话）</li>
+<li>点开始</li>
+<li>等到工具提示说结束了</li>
+<li>拔线，插电池，开手机，搞定</li>
+</ul>
+<p><a href="http://blog.csdn.net/zeralt/article/details/7379870" target="_blank">这里</a>有个相关的文章。</p>
+<p>我找到并试过了llnhhy的一个系统，其提供者既提供了ROM又提供了bin，还提供了谷歌套件的用于CWM安装的zip。我且称之为「<a href="http://android.91.com/news/12192011/012840755_1.shtml" target="_blank">llnhhy 2.3.7</a>」。</p>
+<h3>故障</h3>
+<h5>6. 「卡刷升级」</h5>
+<p>我一开始没有意识到这点，然后这么操作了，结果就出问题了！——</p>
+<p>要是手机处于Android2.2的情况下进CWM recovery「安装」Android 2.3的ROM，会导致「<a href="http://blog.csdn.net/wwg2436/article/details/7866661" target="_blank">IMEI号丢失</a>」（又叫「串号丢失」），表现为无法开机，且似乎无法刷bin——「开始按钮从灰色变成可用」一直不发生！</p>
+<p>这里有些讨论：<a href="http://sjbbs.zol.com.cn/164/642_1631410.html">【[实用教程] 分享中兴U880升级工具开始按钮为灰色的解决办法】-中兴U880论坛-ZOL中关村在线</a></p>
+<h5>7. IMEI串号丢失</h5>
+<p>这是比较麻烦的，因为（几乎！）所有U880的刷机工具都需要先「验证出来IMEI号」，才会使「开始按钮从灰色变成可用」。而酷派那个MultiDownloader却不用！我硬是加了一个陌生人的QQ，才获得了<a href="http://bbs.gfan.com/android-5588850-1-1.html" target="_blank">MultiDownloader</a>的这条链接。而从这条<a href="http://wenku.baidu.com/view/6711cf136bd97f192279e924.html" target="_blank">百度文库</a>，以及我观察到的MultiDownloader使用的大文件的后缀是"cpb"这一情况，我才猜到MultiDownloader应该的确是酷派的东西。</p>
+<h5>7B*. MultiDownloader</h5>
+<p>这是个比较神奇的东西。貌似这是作用类似于「单路刷机工具」的工具，只是这个「多路刷机工具」貌似是不检查IMEI号的。而选择的cpb文件的内容在本质上其实也就是那种中兴口味的bin文件的内容，无非是文件后缀名不同。我试过将本文「ZTE原厂Android 2.2.2」的bin后缀直接改成cpb，然后用多路工具刷进IMEI丢失的设备中；随后设备是可以开机的。</p>
+<h5>7C*. 拨号器</h5>
+<p>本文「ZTE原厂Android 2.2.2」内置的拨号器对「*983××」是没有反应的。但是，「llnhhy 2.3.7」的拨号器却对「*983××」有反应。4634一次之后，再次「*#06#」时，我发现IMEI还是以莫名其妙的「10086××」。但是重启之后就变了。至于要改成什么IMEI号，我建议你还是在你用完刷bin工具后装上电池前先看看你电池仓底的贴纸吧。</p>
+<h5>7. 的继续</h5>
+<p>我个人喜欢的处理这个情况的办法是使用「*983*4634#」，而不是我见到的其他复杂的办法。我喜欢的具体步骤是这样的：</p>
+<ul>
+<li>用MultiDownloader写入「llnhhy 2.3.7」
+<ul>
+<li>或者写入本文的「ZTE原厂Android 2.2.2」。我这么做后都能打电话了；我猜你至少应该能开机进Android了。</li>
+</ul>
+</li>
+<li>执行「*983*4634#」，输入你贴纸上的号码的前14位</li>
+<li>诶？？怎么「*#06#」还是显示了很多个0的一个IMEI值？？</li>
+<li>不管，重启下再说</li>
+<li>开机了，IMEI变成了贴纸值。第15位这一验证位被算了出来，和贴纸相符</li>
+<li>卸下电池，连上ZTE那个「一键」工具试试</li>
+<li>「开始按钮从灰色变成可用」了！！</li>
+<li>至此，手机又可以随便刷了</li>
+</ul>
+<p>完。</p>

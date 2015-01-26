@@ -1,0 +1,20 @@
+# Site settings
+title: "Eason.C's Blog"
+tagline: "Life documentation"
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "https://easoncxz.github.io" # the base hostname & protocol for your site
+twitter_username: easoncxz
+github_username:  easoncxz
+permalink: /:year/:month/:title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author:
+        display_name: "Eason Chen"
+
+# Build settings
+markdown: kramdown

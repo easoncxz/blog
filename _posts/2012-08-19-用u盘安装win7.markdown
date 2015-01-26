@@ -1,0 +1,58 @@
+---
+title: 用U盘安装Win7
+excerpt: "用U盘是可以安装Win7的；并且过程十分方便（相比起使用光盘）。本文简述几个用U盘安装Win7的方法。\r\n<h2>前提：</h2>\r\n你需要有：一个U盘…最好是8GB的吧；Win7安装盘（推荐）/ghost镜像。原系统环境我就随口说是XP吧。\r\n\r\n对于不懂的概念，可以翻翻<a
+  title=\"[repost]Windows 7引导故障修复(BCD和MBR)\" href=\"http://blog.easoncxz.com/?p=90\"
+  rel=\"bookmark\">[repost]Windows 7引导故障修复(BCD和MBR)</a>。别忘了不懂还可以Google。"
+wordpress_id: 22
+wordpress_url: http://blog.easoncxz.com/?p=22
+date: '2012-08-19 00:03:47 +1200'
+date_gmt: '2012-08-18 12:03:47 +1200'
+categories:
+- User
+tags:
+- UltraISO
+- BOOTMGR
+- Windows
+comments: []
+---
+<p>用U盘是可以安装Win7的；并且过程十分方便（相比起使用光盘）。本文简述几个用U盘安装Win7的方法。</p>
+<h2>前提：</h2>
+<p>你需要有：一个U盘…最好是8GB的吧；Win7安装盘（推荐）/ghost镜像。原系统环境我就随口说是XP吧。</p>
+<p>对于不懂的概念，可以翻翻<a title="[repost]Windows 7引导故障修复(BCD和MBR)" href="http://blog.easoncxz.com/?p=90" rel="bookmark">[repost]Windows 7引导故障修复(BCD和MBR)</a>。别忘了不懂还可以Google。<a id="more"></a><a id="more-22"></a></p>
+<h2>方法一：UltraISO</h2>
+<p>这个方法最直观了。用一句话说完就是：『用UltraISO将你的U盘变成一个光盘』。要是本来你拿着原厂的光盘的ISO文件，能够烧光盘的情况下，在UltraISO中选择『写入硬盘映像』，好好选好分区来覆盖。注意这里有丢失数据的风险，并且需要“以管理员权限运行”UltraISO。操作细节随便都能找到，我就懒的说了。</p>
+<p>好的参考：</p>
+<ul>
+<li><a href="https://www.google.com/search?q=ultraiso+u%E7%9B%98+%E5%AE%89%E8%A3%85+win7&amp;sugexp=chrome,mod=7&amp;sourceid=chrome&amp;ie=UTF-8">https://www.google.com/search?q=ultraiso+u%E7%9B%98+%E5%AE%89%E8%A3%85+win7</a></li>
+<li><a href="http://www.3haoweb.cn/a/pc/win7/2010/0618/2407.html">http://www.3haoweb.cn/a/pc/win7/2010/0618/2407.html</a></li>
+<li><a href="http://bbs.pcbeta.com/viewthread-590650-1-1.html">http://bbs.pcbeta.com/viewthread-590650-1-1.html</a></li>
+</ul>
+<p>UltraISO用完之后，就可以从U盘开机了，之后就是跟光盘一样的安装步骤——<strong>除了</strong>过程中重启的时候可能会进错BIOS启动项。解决方法是将目标硬盘设成首选启动项，而在第一次用U盘开机的时候，让U盘作为临时启动项开机，随后的重启都进硬盘，就好了。</p>
+<h2>方法二：WinPE</h2>
+<p>这个方法我不怎么喜欢，因为太不三不四：不原装，但是又不想ghost一样极致。步骤是这样的：</p>
+<ul>
+<li>将你的U盘做成PE工具盘。最好找个以XP为基础制作的PE，e.g. 老毛桃的那个（像<a title="http://bbs.pcpop.com/thread-6263220-1-1.html" href="http://bbs.pcpop.com/thread-6263220-1-1.html" target="_blank">这里</a>/<a title="http://www.360doc.com/content/10/0818/18/1120397_47003027.shtml" href="http://www.360doc.com/content/10/0818/18/1120397_47003027.shtml" target="_blank">这里</a>）。</li>
+<li>将iso文件解压出来，放到U盘里，或者硬盘的目标分区以外的分区里。</li>
+<li>启动进PE，“双击打开”iso解压出来的setup.exe，像装任何windows成顺序一样装windows本身。= =</li>
+</ul>
+<p>由于这个方法我没有试过，所以我不清楚接下去的步骤有什么需要注意的。但是基本肯定的一点是：只有第一次开机是从来源媒体的，随后每次重启都应该进目标硬盘。</p>
+<p>一般般的参考：</p>
+<ul>
+<li><a href="http://www.metsky.com/archives/318.html">http://www.metsky.com/archives/318.html</a></li>
+<li><a href="http://bbs.wuyou.com/viewthread.php?tid=142176">http://bbs.wuyou.com/viewthread.php?tid=142176</a></li>
+</ul>
+<h2>方法三：先ghost然后修启动</h2>
+<p>这个方法不推荐，因为麻烦。好处是可以方便地兼容对于其他系统的需要。步骤如下：</p>
+<ul>
+<li>找个来源ghost的gho文件，想办法（e.g. 做个PE盘，用其启动，然后）将来源gho里的系统分区ghost到目标分区。</li>
+<li>直接将这个ghost进去的系统用你的方法“登记”到你自己原有的引导器上；或者抹除（或者先备份再抹除）目标盘的MBR然后重装windows7默认的引导器BOOTMGR.</li>
+</ul>
+<p>由于这最后的“重新安装BOOTMGR”有点麻烦，所以我打算在另外的文章中讲；现在先随便给个参考链接先。因为“重新安装BOOTMGR”不太方便，所以这个方法不推荐。</p>
+<p>不太好的参考：</p>
+<ul>
+<li><a href="http://www.360doc.com/content/10/0617/17/1561949_33630816.shtml">http://www.360doc.com/content/10/0617/17/1561949_33630816.shtml</a></li>
+<li><a href="http://note.sdo.com/u/ivan/n/2Ew5y~jhOdd0LX01w000lW">http://note.sdo.com/u/ivan/n/2Ew5y~jhOdd0LX01w000lW</a></li>
+<li><a href="http://www.dbsoo.com/html/10-1/1300.htm">http://www.dbsoo.com/html/10-1/1300.htm</a></li>
+</ul>
+<h2>结论</h2>
+<p>貌似无论来源是iso还是gho, 都能用U盘装win7. 还是推荐UltraISO方法，U盘直接当光盘使，读取速度还快，远不到半个钟系统就能装好。（硬件是在差还是可能慢的。）</p>

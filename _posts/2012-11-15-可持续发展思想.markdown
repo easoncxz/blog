@@ -1,0 +1,20 @@
+---
+title: 可持续发展思想
+wordpress_id: 434
+wordpress_url: http://blog.easoncxz.com/?p=434
+date: '2012-11-15 17:23:24 +1300'
+date_gmt: '2012-11-15 05:23:24 +1300'
+categories:
+- thinking
+tags: []
+comments: []
+---
+<p>我不愿意接受不可持续发展的事物；我不情愿持有不可持续发展的想法。一种 想法/事物/态度，要是在当下的已知条件下推测这辈子接下来的时间里不能一直使用的话，我趋于不想采用这种 想法/事物/态度。</p>
+<p>最近的例子有：</p>
+<ul>
+<li>Sublime Text 2</li>
+<li>Windows 7&amp;8</li>
+<li>Adobe CS 5.5&amp;6</li>
+<li>Gmail, with antique large attachments inside</li>
+</ul>
+<p>UPDATE 20130118: 笔记本锁的钥匙</p>

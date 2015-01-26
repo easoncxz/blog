@@ -1,0 +1,43 @@
+---
+title: 修复win7引导
+excerpt: "本文讲述为MBR硬盘上win7引导的一种修复方法。我个人认为这是最“原装正版”的修复手段。我十分喜欢，也经常使用。（= =）\r\n<h4>满足以下条件的任何故障适用：</h4>\r\nMBR硬盘的一个活动分区内有现成win7系统，分区内的引导文件（如<code>BOOTMGR</code>）齐备。\r\n<h4>期望的修复结果：</h4>\r\n令开机过程达到空白硬盘上安装win7后的效果。也就是win7自带启动引导器引导单系统。也就是最“原装”的样子。"
+wordpress_id: 154
+wordpress_url: http://blog.easoncxz.com/?p=154
+date: '2012-09-17 10:42:57 +1200'
+date_gmt: '2012-09-16 22:42:57 +1200'
+categories:
+- User
+tags:
+- BOOTMGR
+- Windows
+comments: []
+---
+<p>本文讲述为MBR硬盘上win7引导的一种修复方法。我个人认为这是最“原装正版”的修复手段。我十分喜欢，也经常使用。（= =）</p>
+<h4>满足以下条件的任何故障适用：</h4>
+<p>MBR硬盘的一个活动分区内有现成win7系统，分区内的引导文件（如<code>BOOTMGR</code>）齐备。</p>
+<h4>期望的修复结果：</h4>
+<p>令开机过程达到空白硬盘上安装win7后的效果。也就是win7自带启动引导器引导单系统。也就是最“原装”的样子。<a id="more"></a><a id="more-154"></a></p>
+<h4>素材：</h4>
+<p>原版win7安装盘。（似乎有<code>cmd</code>的<code>PE</code>系统也可以，不妨尝试）</p>
+<h4>方法：</h4>
+<ol>
+<li>从安装盘开机。</li>
+<li>见到“现在安装”按钮在对话框中间的时候，按<code>shift+F10</code>。</li>
+<li>*使用<code>diskpart</code>命令确定自己装有win7那个分区是活动的，并且记下其盘符。一般盘符会是C。</li>
+<li>逐行输入以下命令：（照盘符是C的情况）
+<ul>
+<li><code>bootrec /fixmbr</code></li>
+<li><code>bootsect /nt60 c: /mbr</code></li>
+<li><code>bootrec /fixboot</code></li>
+<li><code>bcdboot c:\windows /s c: /l zh-cn</code></li>
+</ul>
+</li>
+<li>重启，从硬盘开机。</li>
+</ol>
+<p>就这么简单！</p>
+<h4>延伸：</h4>
+<ul>
+<li>Microsoft的原厂PE中的<code>diskpart</code>工具是个还用得过去的磁盘分区工具，可以完成一些简单的分区操作。</li>
+<li>也可尝试在最后加上“<code>bootrec /rebuildbcd</code>”，但这似乎有可能导致win7自带引导器生成它能够引导的其他系统，例如XP。</li>
+<li>更详细的win7引导器的选项操作请使用<code>bcdedit</code>命令。</li>
+</ul>

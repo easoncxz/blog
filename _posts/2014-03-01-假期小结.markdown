@@ -1,0 +1,46 @@
+---
+title: 假期小结
+wordpress_id: 1050
+wordpress_url: http://blog.easoncxz.com/?p=1050
+date: '2014-03-01 21:24:20 +1300'
+date_gmt: '2014-03-01 09:24:20 +1300'
+categories:
+- life
+tags: []
+comments: []
+---
+<p>Summer school 这一个多月，可自由支配的时间实在是太充足了。这次有这么一大块的时间，虽然没有做 一件/一系列 主题专一明显的事情，但是暗暗感觉大部分时间应该还是做了「有意义的事情」的。由于无主题，所以感觉要罗列一下，故此文。</p>
+<p>我做了的事情有：</p>
+<ul>
+<li><strong>观看了 <a href="https://inst.eecs.berkeley.edu/~cs61a/fa13/">CS61A</a> 的讲座录像</strong>的大概三分之一，并从中令 Python 达到了可称「熟悉」的程度。</p>
+</li>
+<li>
+<p><strong>架设起了<a href="http://easoncxz.github.io/tifa/">《提法的认识》</a></strong>。开始了其写作与页面设计。从中接触了 Jekyll; 期间认识了 typography.</p>
+</li>
+<li>
+<p><strong>理解了 <a href="http://blog.easoncxz.com/?p=989">how OAuth works</a></strong>. (RTFM!)</p>
+</li>
+<li>
+<p><strong><a href="https://docs.djangoproject.com/en/1.6/intro/tutorial01/">上手了 Django</a></strong>. 用之弄出了个我心怀已久的 twit a tweet （aka 发条推） <a href="http://tweet-easoncxz.herokuapp.com">工具</a>，放在了 <strong>Heroku</strong> 上。从中<strong>熟悉了 <a href="http://blog.easoncxz.com/?p=979">pip</a>, <a href="http://blog.easoncxz.com/?p=984">virtualenv</a></strong> 这两个 Python 工具的使用，以及 PostgreSQL 在 Archlinux 上的安装运行。</p>
+</li>
+<li>
+<p>通过使用 <a href="https://github.com/dgorissen/coursera-dl">coursera-dl</a>, 下载并<strong>开始了观看 UPenn 的 <a href="https://www.coursera.org/course/calcsing">Calculus: Single Variable</a>, 看了 5/60 的讲座</strong>。（并且做了作业哦！）</p>
+</li>
+<li>
+<p><strong><a href="http://it-ebooks.info/book/1857/">开始了</a> PHP 的学习</strong>。由此，体会了在 Archlinux 上安装运行 <a href="https://wiki.archlinux.org/index.php/LAMPhttps://wiki.archlinux.org/index.php/LAMP">LAMP</a>.</p>
+</li>
+<li>
+<p><strong>习惯了使用 vim</strong>.</p>
+</li>
+<li>
+<p>完成了数月以来积压的<strong>购物小票的信息的录入</strong>。</p>
+</li>
+<li>
+<p>启动、并完成了大概三分之一的一年积压下来的<strong>纸质课堂 handout 的扫描</strong>。</p>
+</li>
+<li>
+<p>通过阅读 <a href="http://learnyouahaskell.com/">Learn You a Haskell</a> 这本小书开始<strong>接触到了 Haskell</strong></p>
+</li>
+</ul>
+<p>这么一扯个清单出来，好像做了的事情还真不少。其实在决定写本文之前，我就感觉这个假期的生活方式应该会比较「增加技术软实力」（如果这么个东西存在的话）。</p>
+<p>不过下个星期就开学了；之后的自由支配时间比例将会大幅减少。如何保持 "momentum" 是个问题。对这个学期课余需要做的事情也好像应该有所计划了。</p>

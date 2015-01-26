@@ -1,0 +1,58 @@
+---
+title: 使用DISKPART命令给硬盘分区
+excerpt: "我将假设你知道：\r\n<ul>\r\n\t<li>如何启动cmd</li>\r\n</ul>\r\nDISKPART是Windows（我的是7；XP貌似也有）的cmd里附带的一个程序，用于给MBR硬盘（最普通的硬盘类型）分区。在cmd里输入\"diskpart\"回车即可进入DISKPART工具：（注：windows命令行不区分大小写。）\r\n<pre>C:\\Users\\Administrator&gt;
+  diskpart</pre>\r\n下面的命令是在DISKPART中使用的。"
+wordpress_id: 235
+wordpress_url: http://blog.easoncxz.com/?p=235
+date: '2012-10-02 15:57:29 +1300'
+date_gmt: '2012-10-02 03:57:29 +1300'
+categories:
+- User
+tags:
+- DISKPART
+- Windows
+comments: []
+---
+<p>我将假设你知道：</p>
+<ul>
+<li>如何启动cmd</li>
+</ul>
+<p>DISKPART是Windows（我的是7；XP貌似也有）的cmd里附带的一个程序，用于给MBR硬盘（最普通的硬盘类型）分区。在cmd里输入"diskpart"回车即可进入DISKPART工具：（注：windows命令行不区分大小写。）</p>
+<pre>C:\Users\Administrator&gt; diskpart</pre>
+<p>下面的命令是在DISKPART中使用的。<a id="more"></a><a id="more-235"></a></p>
+<p>词汇：</p>
+<ul>
+<li>盘：<em>disk</em></li>
+<li>卷：<em>volume</em></li>
+<li>分区：<em>partition</em></li>
+<li>编号：<em>###</em></li>
+</ul>
+<p>获得一个列有所有硬盘的列表：</p>
+<pre>DISKPART&gt; list disk</pre>
+<p>通过指定编号，从刚才的列表里选择一个合适的硬盘，例如0号：</p>
+<pre>DISKPART&gt; select disk 0</pre>
+<p>选择分区或者卷也类似：</p>
+<pre>DISKPART&gt; list volume
+DISKPART&gt; select vol 1</pre>
+<p>或者</p>
+<pre>DISKPART&gt; list partition
+DISKPART&gt; select partition 2</pre>
+<p>选好了之后可以进行操作。</p>
+<p>已选硬盘，对其进行创建1024MB的主分区：</p>
+<pre>DISKPART&gt; create partition primary size=1024</pre>
+<p>已选分区/卷，对其进行快速NTFS格式化并创建卷标（也就是创建文件系统了）：</p>
+<pre>DISKPART&gt; format fs=ntfs label="my new partition" quick</pre>
+<p>也可以进行修改盘符的操作。也就是改变“这个盘用什么字母标记”。</p>
+<p>已选一个分区/卷，给其分配K作为盘符：</p>
+<pre>DISKPART&gt; assign letter=k</pre>
+<p>，或者移除其盘符：</p>
+<pre>DISKPART&gt; remove</pre>
+<p>对于任何命令，都可以放一个“HELP”加上一个空格在其前面执行，以获得帮助。例如：</p>
+<pre>DISKPART&gt; help create
+DISKPART&gt; help create partition
+DISKPART&gt; help create partition primary
+DISKPART&gt; help format
+DISKPART&gt; help assign
+DISKPART&gt; help remove</pre>
+<p>最后还有：</p>
+<p>大部分的名称都可以简写哦亲！自己随便挑个字眼，只输入其前3个字母就可以了。例如：<em>select</em>可以写成<em>sel</em>，<em>volume</em>可以写成<em>vol</em>，<em>partition</em>可以写成<em>par</em>，甚至<em>help</em>都能写成<em>hel</em>，<em>create</em>都可以写成<em>cre</em>！我都不知道一共有多少关键字能这样，阁下自己试试吧！有了简称方便多了是不？</p>

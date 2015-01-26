@@ -1,0 +1,16 @@
+---
+title: 小思中外教育区别
+wordpress_id: 1046
+wordpress_url: http://blog.easoncxz.com/?p=1046
+date: '2014-02-25 21:37:23 +1300'
+date_gmt: '2014-02-25 09:37:23 +1300'
+categories:
+- lite
+tags:
+- 教育
+comments: []
+---
+<p>也许：</p>
+<p>国外的教育要么是 将巧妙之处点明，要么是 明确说某部分不讲；</p>
+<p>而国内的教育要么是 通过令学生从做大量需要巧妙方法才能迅速做好的题目中自行想出巧妙之处，要么是 虽然不讲但是简直令学生连「不讲」这一情况都不知道。</p>
+<p>（思路：<em>UPenn Calculus: Single Variable</em> vs. <em>洪丹的物理课</em>。）</p>

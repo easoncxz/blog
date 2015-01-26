@@ -1,0 +1,28 @@
+---
+title: 用python脚本处理文件名
+wordpress_id: 449
+wordpress_url: http://blog.easoncxz.com/?p=449
+date: '2012-11-16 19:02:51 +1300'
+date_gmt: '2012-11-16 07:02:51 +1300'
+categories:
+- User
+tags:
+- Python
+comments: []
+---
+<p>今天我终于有了个批量处理文件名的需求了。要是手动做，估计要把我做傻。目的是去掉一堆文件文件名某关键字(e.g.'SKMBT')之前的部分。为了减少敲码量，我把所有待处理的文件放到了<code>d:/tmp/</code>。</p>
+<pre lang="python">import os
+path="d:/tmp/"
+list=os.listdir(path)
+    #now list is a list of strings of the names of the files, 
+    #e.g. "20121116_145723.jpg"
+for file in list:
+    os.rename(path+file,path+"pass a new string as the new name - "+file)</pre>
+<p>事实上，我做的是：</p>
+<pre lang="python">for file in list:
+    os.rename(path+file,path+file[file.find('SKMBT'):])</pre>
+<p>，以去掉每个文件文件名里<code>'SKMBT'</code>之前的部分。</p>
+<p>参考：</p>
+<ul>
+<li><a href="http://www.mattweber.org/2007/03/04/python-script-renamepy/">Python script: rename.py | MattWeber.Org</a></li>
+</ul>

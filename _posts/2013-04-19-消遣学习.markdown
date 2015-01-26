@@ -1,0 +1,33 @@
+---
+title: 消遣/学习
+wordpress_id: 587
+wordpress_url: http://blog.easoncxz.com/?p=587
+date: '2013-04-19 03:01:53 +1200'
+date_gmt: '2013-04-18 15:01:53 +1200'
+categories:
+- thinking
+tags: []
+comments:
+- id: 868
+  author: Jaicidi
+  author_email: amro1111@gmail.com
+  author_url: ''
+  date: '2013-04-24 06:01:25 +1200'
+  date_gmt: '2013-04-23 18:01:25 +1200'
+  content: "Hi Eason, \r\n\r\nThis is off-topic but when you get a chance could you
+    please send me the 9750gii files. I've looked on the net for them but have had
+    no luck.\r\n\r\nI'll make sure to distribute them and credit the appropriate people
+    (cfxm and Simon Lothar).\r\n\r\nThanks!"
+- id: 1071
+  author: enigmahuang
+  author_email: enigmahuang@Gmail.com
+  author_url: http://ienigmahuang.tk
+  date: '2013-06-02 02:16:09 +1200'
+  date_gmt: '2013-06-01 14:16:09 +1200'
+  content: "这个问题也困扰了我很久……我一直觉得我做的消遣的事情介乎于娱乐和学习之间，因为开学期间我不能打游戏，而我认为在电脑上打游戏看片才算纯碎的消遣……我平时逛的地方要么是AB站评论区要么是硬件软件资讯，以及一些博客和RSS，有点学习的感觉。所以自己也不是很清楚怎么区分吧。\r\n或者是因为我现在高三，诸多制掣吧，我感觉我假期的时候时间划分会更明确一点。"
+---
+<p>有时同学 问我/互相之间问道 ，「你在有空时都做些什么？」于我而言，这似乎是个十分难以回到的问题。</p>
+<p>似乎，这是因为我比较不三不四地花费时间。似乎，至少近来，我独处的时间都花在阅读一些「博客长度的」、「需要一定基础知识的」材料上。说是学习是不行的，太不认真；说是娱乐，却不足够令人愉快。</p>
+<p>和同学说起「阅读」的时候，我总是说「我提不起兴趣」；事实上我也是那么觉得的。似乎凡是我觉得「我应该读读」的东西，都过于「长篇大论枯燥乏味」；而凡是吸引住我的，例如 twitter 时间线，都（被认为）是「无用的」。</p>
+<p>我又会觉得，与其花一些时间进行「阅读、学习」，不如花点时间清除一下近期的硬负担。可是从另一方面讲，我（<a title="对不起，就这样吧，再见" href="http://ienigmahuang.tk/index.php/%E5%AF%B9%E4%B8%8D%E8%B5%B7%EF%BC%8C%E5%B0%B1%E8%BF%99%E6%A0%B7%E5%90%A7%EF%BC%8C%E5%86%8D%E8%A7%81/" target="_blank">最近重新</a>）认识到了 阅读/知识 匮乏的恐慌。显然地，这又回到了我在Quora上见到的<a title=" How to master your time" href="http://abetterlife.quora.com/How-to-master-your-time-1" target="_blank">远近问题</a>。</p>
+<p>一个我隐约觉得可以解决这个问题的办法是「睡觉」——不过这下又有一个新的冲突被引进了哦。</p>

@@ -1,0 +1,62 @@
+---
+title: 学期总结
+excerpt: "某天洗澡的时候心想「学期差不多结束了，或许应该写篇总结什么的」。随即想到：一堆「学期之最」之类的貌似会很有趣，我便尝试写本文。\r\n\r\n学期之「最」："
+wordpress_id: 623
+wordpress_url: http://blog.easoncxz.com/?p=623
+date: '2013-06-02 03:42:02 +1200'
+date_gmt: '2013-06-01 15:42:02 +1200'
+categories:
+- life
+tags: []
+comments: []
+---
+<p>某天洗澡的时候心想「学期差不多结束了，或许应该写篇总结什么的」。随即想到：一堆「学期之最」之类的貌似会很有趣，我便尝试写本文。</p>
+<p>学期之「最」：<a id="more"></a><a id="more-623"></a></p>
+<ul>
+<li><span style="line-height: 13px;">最“低调”的同学：Pierre。他玩 Arduino 、写 php 网站，却不动声色，我差点还不知道。<br />
+</span></li>
+<li>最专注于体育的同学：Kirill。昂公路民一个，轻松 45 km/h，准备环法中。</li>
+<li>最夜猫的同学：Hannah。她自称有失眠症，时常 晚睡/通宵 。</li>
+<li>中文能力最强的非中国同学：Brittany。我基本可以和她用普通话交流。XD</li>
+<li>最吸引我的聚会游戏：杀人游戏。这个少不了 Max 的参与哦，他有回最后一轮以匪跳警竟然成功。</li>
+<li>最笼统或烦人的项目："Systems Project"。</li>
+<li>骑车去到的最远的地方：Devenport。</li>
+<li>最倒霉的经历：骑车去到了 Botany ，回来路上后轮却爆了胎。</li>
+<li>最早就应该学会了的知识点：深/广度优先搜索。</li>
+<li>最令我自豪的学习成绩：线性代数作业。其 25 分只错了 1 分，基本在全班前列。</li>
+<li>最令我惊喜的学习成绩：算法与数据结构期中测验。本来以为会考砸的，但其 29 分只错了 2 分，获得全班并列第二。</li>
+<li>最美好的聚会：游 Waiheke 岛。</li>
+<li>最刷新人伦的听闻：某同学的老爸竟然是个 gay 。 （#信息量 啊…）</li>
+<li>最惊喜的聚会：一堆马来妹子周末一起做<a title="Nasi Lemak" href="http://en.wikipedia.org/wiki/Nasi_lemak" target="_blank">辣死你妈</a>给大家作早/午餐。</li>
+<li>估计耗费了最多时间的运动：乒乓球。总是在 22:30 之后场地才热起来的。</li>
+<li>出门最常干的事（除了上课、回家以外）：买菜。</li>
+<li>最贵的蔬菜：灯笼椒。在 CountDown 竟然卖 $2.5 一个！</li>
+<li>我见过最便宜的机票：~$40! JetStar 从 Auckland 到 Wellington 的航班。</li>
+</ul>
+<p>学期的「唯一」：</p>
+<ul>
+<li><span style="line-height: 13px;">唯一一本课内书：ENGGEN 115 的讲稿册</span></li>
+</ul>
+<p>新的「第一次」：</p>
+<ul>
+<li>第一次骑「越野自行车径」：Riverhead Forrest</li>
+<li>第一次看西医跌打 (physiotherapy)</li>
+<li>第一次尝试打排球</li>
+<li>第一次尝试玩 Touch</li>
+<li>第一次去健身房</li>
+<li>第一次煎牛排</li>
+<li>第一次煲汤：玉米胡萝卜煲排骨</li>
+<li>第一次编译软件来用：R</li>
+<li>第一次连续用了 Linux 一段时间 (Fedora)</li>
+<li>第一次连续多日明火煮饭（其实是用电炉啦，不过也应该算。）</li>
+<li>第一次用CAD软件：Creo Parametric</li>
+<li>第一次开汽车上路</li>
+<li>第一次坐同学开的汽车</li>
+<li>第一次外出喝酒</li>
+<li>第一次面试</li>
+<li>第一次申请实习</li>
+<li>第一次建立并运用邮件列表</li>
+<li>第一次在NZ网购、收快递</li>
+<li>第一次登记选举（或许行使了选举权）</li>
+<li>第一次获得政府津贴</li>
+</ul>

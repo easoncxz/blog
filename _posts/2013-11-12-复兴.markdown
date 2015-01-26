@@ -1,0 +1,17 @@
+---
+title: 复兴
+wordpress_id: 891
+wordpress_url: http://blog.easoncxz.com/?p=891
+date: '2013-11-12 02:22:53 +1300'
+date_gmt: '2013-11-11 14:22:53 +1300'
+categories:
+- life
+tags: []
+comments: []
+---
+<p>今发一文以记认真重拾 Pascal 以及算法问题。顺便贴上一些材料。</p>
+<ul>
+<li><a title="poj.org" href="http://poj.org/" target="_blank">POJ</a></li>
+<li><a title="wiki.freepascal.org" href="http://wiki.freepascal.org/Object_Pascal_Tutorial" target="_blank">tutorial</a></li>
+<li><a title="freepascal.org" href="http://www.freepascal.org/docs-html/ref/ref.html#refli2.html" target="_blank">manual</a></li>
+</ul>

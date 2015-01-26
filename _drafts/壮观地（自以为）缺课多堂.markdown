@@ -1,0 +1,21 @@
+---
+layout: post
+status: draft
+publish: false
+title: 壮观地（自以为）缺课多堂
+author:
+    display_name: Eason Chen
+    login: easoncxz
+    email: easoncxz@gmail.com
+    url: ''
+author_login: easoncxz
+author_email: easoncxz@gmail.com
+wordpress_id: 
+wordpress_url: http://easoncxz.com/blog/?p=
+date: '2014-11-09 10:34:02 +1300'
+date_gmt: '2014-11-09 10:34:02 +1300'
+categories: []
+tags: []
+comments: []
+---
+由于今天的一连串的「赶去上课」的乌龙太壮观了，所以写一片文章记录下来。
