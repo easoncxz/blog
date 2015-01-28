@@ -15,6 +15,12 @@ defaults:
       layout: "post"
       author:
         display_name: "Eason Chen"
+        ## jekyll-wordpress importer:
+        # login: easoncxz
+        # email: easoncxz@gmail.com
+        # url: ''
+      # author_login: easoncxz
+      # author_email: easoncxz@gmail.com
 
 # Build settings
 markdown: kramdown

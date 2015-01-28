@@ -6,5 +6,11 @@ _site
 
 Gemfile.lock
 
+# virtualenv dir
+.venv/
+
+# npm install dir
+node_modules/
+
 # vim temp files
 **/*.swp
