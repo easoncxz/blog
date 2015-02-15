@@ -392,76 +392,105 @@ experiment [4]:
 Besides, those people who only know to criticise, or even ridicule others are 
 the least helpful people. Just ignore them.
 
-**3) Worrying that you aren't getting reward.** This is actually a rather
-irrelevant question. Only blogs that talk about nothing but trivialities would
-face such a concern. If what you write down is your own thinking, then just the
-fact that you've thought about it carefully enough such that you're able to
-write it down is itself already supposed to be a rewarding thing, even if you
-were to write it in your private little notebook. Besides, if you are authoring
-a valueable blog, you shouldn't worry at all about its popularity. Maybe in the
-beginning it would start out small, but that's a necessary step of the process.  
-Both [Paul Buchheit](http://en.wikipedia.org/wiki/Paul_Buchheit), a core member 
-of the Gmail team and the founder of FriendFeed, and Jeff Atwood have exclaimed: 
+**3) Worrying that you aren't getting reward.** This is actually a rather 
+nonsense question. Only blogs that talk about nothing other than trivialities 
+should face such a concern. If what you write down is your own thinking, then 
+just the fact that you've thought about it carefully enough such that you're 
+able to write it down should be already a rewarding thing itself, even if you 
+were to write it down in your private little notebook for no one else to read.  
+Besides, if you are authoring a valuable blog, you shouldn't worry at all about 
+its popularity. Maybe in the beginning it would start out small, but that's a 
+necessary step of the process.  Both [Paul 
+Buchheit](http://en.wikipedia.org/wiki/Paul_Buchheit) (a core member of the 
+Gmail team and the founder of FriendFeed) and Jeff Atwood have commented: 
 "Overnight success takes a long time." 
 ([(1)](http://paulbuchheit.blogspot.com/2009/01/overnight-success-takes-long-time.html), 
 [(2)](http://blog.codinghorror.com/overnight-success-it-takes-years/)). However 
 nowadays, there are more and more information aggregation services on the 
 internet, some where humans do the work, some where bots do; from the viewpoint 
-of idendipendent bloggers, the situation is favourable and encouraging, and
-it's even still getting better.
+of idendipendent bloggers, this situation is favourable and encouraging, and 
+it's even getting more and more true.
 
-**4) Worrying that you've got nothing to write about.** This is also quite an
-irrelevant concern. The process of thinking is not one you can rush on. Those
-who subscribe to my blog long-term will know that my publishing frequency is
-about 3 to 5 posts per month. In fact sometimes I don't have anything published
-for months. The reason behind such delays is simple: either I've got urgent
-work at hand that I need to deal with before some deadline, or that the
-problems I was facing were big ones, which would require more time and more
-thought into them. It doesn't really matter that you keep your blog quiet while
-you think carefully -- if you don't feel like you've thought enough for a blog
-post, just keep working at it until you're ready. There's a difference between
-those who are keen on thinking and those who aren't: the former always has a
-few topics floating at the back of their mind, which comes out to centre stage
-and demands thought whenever the mind has its moments of pause; the latter
-doesn't have such floating topics -- they don't even pro-actively think about
-anything, and even always tries to let others "help" them do the thinking for
-them when they're faced with a difficulty.
+**4) Worrying that you've got nothing to write about.** This is also quite a 
+nonsense concern. The process of thinking is not something you can rush on. 
+Those who subscribe to my blog long-term will know that my publishing frequency 
+is about 3 to 5 posts per month. In fact sometimes I don't have anything 
+published for months. The reason behind such delays is simple: either I've got 
+urgent work at hand that needs to be dealt with before some deadline, or that 
+the topic I was thinking about were big ones, which would require more time and 
+more thought. It isn't a problem for you to keep your blog quiet while you think 
+carefully about stuff -- if you don't feel like you've thought enough about a 
+topic, just keep working at it until you're ready. There's a difference between 
+those who are keen on thinking and those who aren't: the former always lets a 
+few topics float at the back of their minds, which come out and demand thought 
+whenever the mind has its moments of pause or boredom; the latter doesn't have 
+topics "floating" like that -- they don't even pro-actively think about 
+anything, and even always try to let others "help" them do the thinking for them 
+when they're faced with a problem to solve.
 
-It's ok to spend some more time and learn to think slowly. Dig deep on a topic,
-and you'll always find edges and corners overlooked by others. The longer you
-can leave a question floating in your mind, the more likely it is that you
-discover new things about the topic. Usually, for questions which I consider
-valueable, I would keep thinking about it intermittently, consciously or
-subconsciouslyl, for some period of time, ranging from a week to a month,
-depending on the difficulty/complexity of the issue, and use the free time when
-I walk, eat to think about the issue. (I've discovered that many people who I
-admire have similar thinking habits.) **Sometimes even when I thought I've
-thought enough about it and wrote and published an article on an issue, my mind
-still has the inertia of thinking about it subconsciously; and hence when I
-then come across a certain article or book I would again be struck with new
-ideas and sentiments.**
+It's ok to spend some more time and think slowly. Dig deep on a topic, and 
+you'll always find edges and corners overlooked by others. The longer you can 
+make a topic stay floating behind your head for you to think about during your 
+idle times, the more likely it is that you will discover new things about the 
+topic. Usually, for topics which I consider meaningful, I would keep thinking 
+about it intermittently, consciously or subconsciously, for some period of time, 
+ranging from a week to a month, depending on the difficulty/complexity of the 
+topic, and use the idle time when I walk, eat, or commute to think about it.  
+(I've discovered that many people whom I admire have similar thinking habits.) 
+**Sometimes even when I seem to have thought enough about it and wrote and 
+published a blog post on an topic, my mind still has the inertia of thinking 
+about that topic subconsciously; and hence when I then come across a certain 
+article or book on a related topic, I would again be struck with new ideas and 
+sentiments.**
 
-**The ability of letting questions linger in one's subconsciousness is a
-capability that can bring great benefits. The longer the thinking has happened
-in your head, the more you'd be able to see compared to others.** Only by
-observing the world around us _while we are holding thoughts_ would we be able
-to make new discoveries. The typical example is Archimedes' "Eureka!" moment --
-if he hadn't keep thinking about the same question during his "down time" for a
-long period, how would he have been able to come to the realisation of "using
-the volume of displaced water to measure volume"? -- Otherwise he would've long
-discovered this techinique through years of taking baths.
+**The ability of letting questions stay in one's subconsciousness for extended 
+periods of time is a capability that can bring great benefits. The more time the 
+thinking spans, the more you'd be able to understand.** Only by observing the 
+world around us _while thinking_ would we be able to make new discoveries. The 
+typical example is Archimedes' "Eureka!" moment -- if he hadn't keep thinking 
+about the same question for a long time, how would he have been able to come up 
+with the idea of "using the volume of displaced water to measure volume"? If no 
+extended thought is needed to understand things, he would've long discovered 
+this techinique due to years of taking baths. [5]
 
 Therefore, if you have formed the habit of thinking, you will always have
 things to write about, things to summarise, which will in turn inspire more
 thought.
 
-Of course another technique you can try is to write down those
-thought-in-progress's themselves, and try to organise them into words of
-clarity, and see what new thoughts and conclusions you can draw by going
-through this process. This is often viable. For instance, this article was once
-only three mere lines in my notebook (each containing around ten keywords) --
-and the initial question was just yet-another-thought I had while walking
-around: "Why should anyone blog?"
+Of course another technique you can try is to write down those 
+thought-in-progress-es themselves, and try to organise them into words of 
+clarity, and see what new thoughts and conclusions you can draw by going through 
+this process. This is often viable. For instance, this very article was at one 
+point in time only three mere lines in my notebook (each containing around ten 
+keywords) -- and the question that started it all was just yet another thought I 
+had while walking down the road: "Why should anyone blog?"
 
-[one-amazon](http://www.amazon.com/Influence-Psychology-Persuasion-Revised-Edition/dp/006124189X/) 
-[one-douban](http://book.douban.com/subject/1005576/)
+----
+
+# Footnotes
+
+[1] You can also take a look at my [collection of interesting 
+topics](http://delicious.com/pongba/toplanguage)
+
+[2] Although I don't completely agree with this saying, I do agree with its 
+spirit of "dealing with a cause further up the cause-and-effect chain when faced 
+with a problem to solve".
+
+[3] The Chinese version of _Influencer: The Power to Change Anything_ is 
+cleverly titled (roughly transliterated as) "Influence 2", in effect borrowing 
+the fame of the other book [_Influence: The Psychology of 
+Persuasion_][influence-amazon] (see it on [Douban][influence-douban] too), 
+although being written by completely different authors.
+
+[4] I can't quite remember the source of this experiment, but the idea of it is 
+unforgettable. If you happen to know its source, please let me know.
+
+[5] Whether Archimedes' story is true is [controversial][eureka]. After all, who 
+can be so certain about things that happened thousands of years ago. However, 
+the moral of the story should be very clear, and I imagine that many people can 
+relate to this sort of experience. Plus that "Eureka" is so well-known, I think 
+it probably doesn't matter that much for me to use it as an example.
+
+[eureka]: http://en.wikipedia.org/wiki/Eureka_(word) 
+[influence-amazon]: http://www.amazon.com/Influence-Psychology-Persuasion-Revised-Edition/dp/006124189X/
+[influence-douban]: http://book.douban.com/subject/1005576/
