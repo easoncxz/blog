@@ -279,119 +279,118 @@ become more _capable_ yourself as well... This is a virtuous cycle.**
 
 # 2) How to keep a long-term valueable blog
 
-It's worth noting that I didn't mean anything about "perseverance" -- when
-thinking, summarising and externalising has become a habit, putting thoughts
-down into words and in return using words to assist thinking would have already
-become a habit too. Thoughts will be begging to be written down -- the blog
-itself will have become merely a by-product.
+It's worth noting that I didn't mean that we need "perseverance" -- when 
+thinking, summarising and externalising has become a habit, putting thoughts 
+down into words, and in return using words to assist thinking would have already 
+become a habit too. Thoughts will be begging to be written down -- the blog 
+itself will have become merely a by-product.  
 
-At first you think long and hard about things, trying to summarise thoughts
-into words so that you have a blog post, hoping to let people feel a bit of
-novelty.  Later down the path, because you're accustomed to thinking and
-reflecting, and because you realise that writing is better thinking, you just
-_have to_ turn your thought process into words. Up to this point, the purposes
-will finally start to seem the right way around -- we're not trying to assist
-blogging by thinking, but rather assist thinking by blogging.
+At first you think very hard about your topics, trying to condense your thoughts 
+down into words so that you have a blog post, hoping to seem a bit more novel to 
+others. Later down the path, because you're accustomed to thinking and 
+reflecting, and because you realise that writing is better thinking, you just 
+_need to_ turn your thoughts into words. When this happens, the logic will 
+finally start to seem the right way around -- finally it appears that we're not 
+trying to assist blogging by thinking, but rather trying to assist thinking by 
+blogging.
 
-Well then how do we pull off this long term effort? I can imagine people giving
-various little techniques as advice to bring more motivation and inspiration,
-e.g. how to do better SEO, how to encourage readers' interaction etc.. I need
-not mention all of those; I will only mention what's in my opinion the most
-important thing:
+Well then how do we make this long-term effort happen? I can imagine people give 
+various little techniques as advice to create more motivation and inspiration, 
+e.g. how to do better SEO, how to encourage interaction from readers etc.. I 
+need not mention any of those; I will only mention what's in my opinion the most 
+important thing to keep you going:
 
 > Become a person who persistently learns and contemplates. Write only the
 > outcomes of true thought. All the rest will fit themselves in place.
 
-This is in the same spirit as the rather well-known saying that "Do what you
-love; the money will follow".[^2]
+This has the same spirit as that saying "Do what you love; the money will 
+follow".[2]
 
-There are lots of examples around this topic; I'll save the effort of listing
-them. What I need to re-emphasise is that: whatever you do, do _not_ post
-trivial chat and small talk. I can appreciate the urge to sometimes rant about
-stuff, but now there is a perfect medium for that -- Twitter. Stop posting
-things on your blog that did _not_ come from sufficient thought on your side.
-Think "think long and hard". Readers who subscribe to your blog wish to receive
-_signal_, not _noise_.  **If you really can't help but want to talk about those
-trivialities, step into others' shoes and think to yourself: if they wrote such
-a piece on _their_ blog, would _you_ want to spent your time reading and
-filtering through it?**
+There are lots of examples around this topic; I'll save the effort of listing 
+them, and instead re-emphasise that: whatever you do, do _not_ post trivial chat 
+and small talk. I can understand the occasional urge to rant about stuff etc., 
+but there is now a perfect medium for that -- Twitter. Stop posting things on 
+your blog that did _not_ come from sufficient thought on your side.  Readers who 
+subscribe to your blog wish to receive the _signal_, not _noise_.  **If you 
+really can't help but want to talk about trivialities, step yourself into 
+others' shoes and think: if they wrote about those trivialities on _their_ blog, 
+would _you_ want to spent your time reading and filtering through it?**
 
 # 3) Possible problems, and some strategies for coping with them
 
-Even though the prose above gave lots of reasons why _to_ write a blog, 
-sometimes all it needs to take to hold a potential blogger back is just one 
-reason to _not blog_. As mentioned in the fifth chapter of _Influencer: The 
-Power to Change Anything_ [^3][] 
-[amazon](http://www.amazon.cn/Influencer-The-Power-to-Change-Anything-Kerry-Patterson/dp/007148499X/) 
-[douban](http://book.douban.com/subject/3130904/) 
-[one-amazon](http://www.amazon.com/Influence-Psychology-Persuasion-Revised-Edition/dp/006124189X/) 
-[one-douban](http://book.douban.com/subject/1005576/) -- "Much of will is 
-skill". **Whether or not you're can be determined enough largely depends on your 
-methodology.**
+Even though so far this article has given lots of reasons why _to_ blog, 
+sometimes all it takes to hold a potential blogger back is just one reason _not 
+to_. As mentioned in the fifth chapter of _Influencer: The Power to Change 
+Anything_ 
+([Amazon](http://www.amazon.cn/Influencer-The-Power-to-Change-Anything-Kerry-Patterson/dp/007148499X/),
+[Douban](http://book.douban.com/subject/3130904/)) [3]
+-- "Much of will is skill". **Whether or not you can be determined enough to 
+keep going largely depends on your methodology.**
 
-**1) Worrying that people consider your blog is not valueable.** The problems 
-that you face would more likely than not to have been faced by others before 
-too. If you put your independent thinking into the issue, the outcome is pretty 
-much valueable by definition. Of course, it wouldn't be a surprise that there 
-may be people who really _does just already know_ what you're talking about in 
-your blog post; but then however "smart" you are, there's always going to be 
-people who're "smarter". We shouldn't reject recording our thoughts just because 
-there are "smarter" people out there; good understanding of a topic always only 
-comes after one's own thought. Besides, even if other people has thought about a 
-certain topic, there's always aspects of the topic that aren't yet covered, 
-thoughts people haven't thought. When putting thought into things has become a 
-habit, your ability to think and analyse things will steadily grow, and your 
-blog posts will become steadily more valueable. Let me repeat this: **Whatever 
-problem you're facing, must have been faced by others already.  Whatever comes 
-out of your long and hard thinking will always be valueable to many.**
+**1) Worrying that people don't consider your blog valueable.** The problems 
+that you face that your blog talks about would more likely than not to have been 
+faced by others too. If you put your original thinking into the issue, the 
+outcome is basically valuable by definition. Of course, it wouldn't be a 
+surprise that there may be people who really _does just already understand_ what 
+you're talking about; but then however "smart" you are, there's always going to 
+be people who're "smarter". We shouldn't reject recording our thoughts just 
+because there are "smarter" people out there; a good understanding of a topic 
+always only comes after one's own thought, and writing about it is helpful. 
+Besides, even if other people has thought about a certain topic, there are 
+always some aspects of the topic yet to be covered, and some ideas people 
+haven't thought of. When putting thought into things has become a habit, your 
+ability to think and analyse things will steadily increase, and your blog posts 
+will become steadily more valuable. Let me repeat this: **Whatever problem 
+you're facing must have been faced by others already. Whatever comes out of your 
+own thinking will always be valuable to others.**
 
-It is also possible that **after you've "figured it out", you consider that 
-"this topic is actually really simple", and "not worthy of a blog post"**. Be 
+It is also possible that **after you've "figured it out", you think that "this 
+topic is actually really simple" and "it's not worthy of a blog post"**. Be 
 aware, that problems always seem "simple" when you've already "got it". It's not 
-how difficult the problem seems in hindsight that matters -- it's **how much 
-process it requires you to go through before you can get from confused to 
-clear** that counts. The more time and effort it took you to make that 
-transition, the more people out there would we expect to not have done the same.  
-The harder the task, the fewer the conquerors.
+how difficult the problem seems in hindsight that tells us something about how 
+hard to solve the problem is -- it's **how much process it requires you to go 
+through before you can get from confused to clear** that counts. The more time 
+and effort it took you to go through that transition, the more people out there 
+would we expect to not have go through the same transition. The harder the task, 
+the fewer that will complete it.
 
-Although if I now look back at articles I wrote a year ago, I might think 
-they're immature or incomplete in their thinking, if it weren't through such a 
-process of writing, thinking and repeating that I've gone through, I wouldn't 
-have arrived at the position today at which I can make such comments in 
-hindsight. In the same way, it's quite likely that when in a few years' time I 
-look back at my writings today, they will seem similarly "immature" and 
-"incomplete".
+Although if I now look back at articles I wrote a year ago, it's likely that I 
+think they're immature or flawed -- if I haven't gone through such a process of 
+writing, thinking and repeating, I wouldn't have arrived at the position today, 
+at which I can have this sort of opinion in hindsight. In the same way, it's 
+quite likely that in a few years' time when I look back at my writings today, 
+I'll find them "immature" and "incomplete" in the same way.
 
-**2) Worrying that your thoughts are too naîve or flawed and that others will
-laugh at it.** We're all human; we make mistakes. It's exactly because an
-individual's thought is almost always incomplete, that we should share our
-thinking and fill in each other's cracks. The possibility of your mistakes
-being pointed out is exactly what's required to reduce them and improve.
-Thoughts that are always hidden behind your back and never spoken of will never
-become mature.
+**2) Worrying that your thoughts are too naîve or flawed, and that others will
+laugh at it.** We're all human; we make mistakes. It's exactly because an 
+individual's thoughts and beliefs are almost always flawed, that we should share 
+our thinking and fill in each other's gaps. There being a possibility for your 
+mistakes to be pointed out is exactly what's required to get rid of them and 
+improve your understanding. Thoughts that are always hidden behind your back and 
+never spoken of will never become mature.
 
-"Much of intelligence is knowledge." There is a thought-provoking [TODO][TODO]
-pyschology experiment [^4][]:
+"Much of intelligence is knowledge." There is a thought-provoking(?) pyschology 
+experiment [4]:
 
-> Split some children into two groups, and give them different reading
-> material.  For one group, give material that claims intelligence is innate,
-> and un-change-able via effort. For the other group, give material that claims
-> "intelligence" is just another word to mean knowledge and skill, and is
-> entirely dependent on one's effort. Subsequently, the children are asked to
-> perform a set of tasks. Those in the innate-intelligence group tend to avoid
-> difficult tasks and pick the easy ones. We can imagine the logic going on:
-> "If I pick the difficult tasks, the probablity of failure will be larger, and
-> I will give others the impression that I am of less intelligence. In order to
-> avoid my apparent intelligence level from decreasing, I should avoid those
-> tasks that I'm more likely to fail at." Children from the other group tend to
-> be more willing at attempting the more challenging tasks, and is noticeably
-> less disheartened than those from the first group when faced with failure --
-> because even if the task resulted in a failure, more knowledge, skill and
-> experience is gained in the process, and the level of intelligence must have
-> increased either way.
+> Split some children into two groups, and give each group a different type of 
+> reading material. For one group, give material that states intelligence is 
+> innate, and cannot be improved via effort. For the other group, give material 
+> that states that "intelligence" is just another word to mean knowledge and 
+> skill, and is entirely dependent on one's effort. Subsequently, the children 
+> are asked to perform a set of tasks. Those in the "innate-intelligence" group 
+> tend to avoid difficult tasks and pick the easy ones. We can imagine the logic 
+> going on: "If I pick the difficult tasks, the probablity of failure will be 
+> larger, and I will give others the impression that I am of less intelligence. 
+> In order to avoid my apparent intelligence level from decreasing, I should 
+> avoid those tasks that I'm more likely to fail at." Children from the other 
+> group tend to be more willing to attempt the more challenging tasks, and are 
+> noticeably less disheartened than those from the first group when faced with 
+> failure -- because even if the task resulted in a failure, more knowledge, 
+> skill and experience is gained in the process, and the level of intelligence 
+> must have increased either way.
 
-Besides, those who only know to criticise or even ridicule others are the least
-helpful people. Just ignore them.
+Besides, those people who only know to criticise, or even ridicule others are 
+the least helpful people. Just ignore them.
 
 **3) Worrying that you aren't getting reward.** This is actually a rather
 irrelevant question. Only blogs that talk about nothing but trivialities would
@@ -463,3 +462,6 @@ through this process. This is often viable. For instance, this article was once
 only three mere lines in my notebook (each containing around ten keywords) --
 and the initial question was just yet-another-thought I had while walking
 around: "Why should anyone blog?"
+
+[one-amazon](http://www.amazon.com/Influence-Psychology-Persuasion-Revised-Edition/dp/006124189X/) 
+[one-douban](http://book.douban.com/subject/1005576/)
