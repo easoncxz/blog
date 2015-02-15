@@ -20,11 +20,11 @@ tags:
 In a nutshell, **keeping a blog has many benefits, while no obvious
 downsides**.
 
-Let me put this down in more detail: **Recording your valueable thoughts in the
+Let me put this down in more detail: **Recording your valuable thoughts in the
 form of a blog can bring many benefits, but doesn't do any harm**. Note: things
 like mumbling about trivialities, making miscellaneous emotional dumps, or 
 writing for
-the sake of writing etc. -- these don't count as valueable thoughts.
+the sake of writing etc. -- these don't count as valuable thoughts.
 
 Here's in my opinion a few of the greatest benefits of keeping a long-term
 blog:
@@ -222,7 +222,7 @@ discussions are also an effective way of encouraging yourself to reflect. The
 deeper the discussion and questioning goes, the closer you'll be from the 
 essence of the issue, the more likely it'll be that you discover hidden 
 differences in the thought processes of the two fo you that you'll likely 
-overlook otherwise.  **And so you'll have had another valueable chance to 
+overlook otherwise.  **And so you'll have had another valuable chance to 
 inspect your own knowledge system in seek of incorrect information or flawed 
 logic.**
 
@@ -237,14 +237,14 @@ be even less keen on reflecting and summarizing, and then...
 Don't get caught in such a vicious circle. Don't decide to permanently stop 
 blogging. Even if you don't publish any posts for two or three months, as long 
 as every post in your blog is the outcome of meaningful thinking you've done, 
-your blog will be found valueable by others on the internet -- because lots of 
-information aggregation platforms are begging to find valueable content like 
+your blog will be found valuable by others on the internet -- because lots of 
+information aggregation platforms are begging to find valuable content like 
 yours. There are search engines there to provide a vast potential audience to 
 your content; there are also humans who are looking for, and forwarding 
 meaningful content like yours. **The worst decision you can make is to stop 
 doing something that doesn't cause any harm, but does various goods.**
 
-In order to make your blog valueable, you must continuously summarise what
+In order to make your blog valuable, you must continuously summarise what
 you've learnt; you must think continuously, reveal deeper truths, and pose
 independent opinions. This might seem like some upside-down logic -- weren't we 
 blogging to help ourselves think in the first place? Don't worry, it will all
@@ -265,7 +265,7 @@ will soon all just come naturally to you.
 
 **7) A long-term blog is the best CV.** Here, "CV" doesn't specifically mean the 
 piece of document you use when seeking a job. After all, it's currently not yet 
-the **era of valueable blogs** -- most people are just re-blogging articles from 
+the **era of valuable blogs** -- most people are just re-blogging articles from 
 around the internet, or just posting trivialities; hence the interviewer 
 wouldn't really take personal blogs as a serious, reliable means of knowing more 
 about the applicant. Here, "CV" is a channel through which other people can get 
@@ -274,13 +274,13 @@ career like [Yonghao
 Luo](http://zh.wikipedia.org/wiki/%E7%BD%97%E6%B0%B8%E6%B5%A9) or 
 [Keso](http://about.me/keso) (who made [5gme (translator note: now 
 obsoleted)](http://www.douban.com/group/on_the_road/)) has done, at least **you 
-can get to know more people because of blogging. The more valueable your blog 
+can get to know more people because of blogging. The more valuable your blog 
 is, the more _capable_(?) the people you get to know in this way would be, and 
 the more your knowledge horizon would extend.  You'll then be able to grasp more 
 opportunities and jump to touch more of your goals, and then you'll gradually 
 become more _capable_ yourself as well... This is a virtuous cycle.**
 
-# 2) How to keep a long-term valueable blog
+# 2) How to keep a long-term valuable blog
 
 It's worth noting that I didn't mean that we need "perseverance" -- when 
 thinking, summarising and externalising has become a habit, putting thoughts 
@@ -330,7 +330,7 @@ Anything_
 -- "Much of will is skill". **Whether or not you can be determined enough to 
 keep going largely depends on your methodology.**
 
-**1) Worrying that people don't consider your blog valueable.** The problems 
+**1) Worrying that people don't consider your blog valuable.** The problems 
 that you face that your blog talks about would more likely than not to have been 
 faced by others too. If you put your original thinking into the issue, the 
 outcome is basically valuable by definition. Of course, it wouldn't be a 
