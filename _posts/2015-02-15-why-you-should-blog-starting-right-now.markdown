@@ -7,7 +7,7 @@ tags:
 - blogging
 ---
 
-> This post is a translation of an blog post from mindhacks.cn I read a long
+> This post is a translation of a blog post from mindhacks.cn I read a long
 > time ago, with the intention that my friends whose Chinese aren't that 
 > up-to-scratch can have a taste of this article (and so that I can refer to 
 > it).
