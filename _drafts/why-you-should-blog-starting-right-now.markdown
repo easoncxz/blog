@@ -15,53 +15,54 @@ tags: []
 # 1) Why you should blog (starting right now)
 
 In a nutshell, **keeping a blog has many benefits, while no obvious
-downsides**. [TODO][TODO] 
+downsides**.
 
 Let me put this down in more detail: **Recording your valueable thoughts in the
-form of a blog can bring many benefits, but doesn't do any hard**. Note: things
-like mumbling about trivialities, miscellaneous emotional dumps, or writing for
-the sake of it etc. -- they don't count as valueable thoughts.
+form of a blog can bring many benefits, but doesn't do any harm**. Note: things
+like mumbling about trivialities, making miscellaneous emotional dumps, or writing for
+the sake of writing etc. -- these don't count as valueable thoughts.
 
 Here's in my opinion a few of the greatest benefits of keeping a long-term
 blog:
 
-**1) You can find friends of similar ambitions.**[TODO][TODO] While I write my
-own blog, I also read others' blogs too. In this Information Era, perhaps most
-people's only channel of getting to know more friends is through the internet.
+**1) You can find friends of similar ambitions.** While I write my
+own blog, I read others' blogs too. In this Information Era, perhaps one of
+people's most important channels of getting to know more friends is through the internet.
 But through the wire, how would we be able to tell whether the other person has
 common interests with ourselves? Trying to do such distinguishment by reading
-through unorganized SNS posts seems far too difficult. [TODO][TODO] Those
+through unorganized SNS posts seems far too inefficient. The
 friends of mine whom I admire almost all use blogs as a long-term effort for
-recording thoughts; **hence even if we haven't met in a long time, we'd still
-know each others' thoughts very well.** Even friends whom you haven't met in
-person before might inspire enjoyable conversations when you meet.
+recording thoughts; **hence even if we haven't met in a long time, we can still
+know each others' thoughts very well.** Even friends whom I haven't met in
+person before might inspire enjoyable conversations when we meet.
 
 Why does blogging far outrun primitive conversational methods when it comes to
-the efficiency of getting to know people with whom you share ambitions? It's
+the efficiency of getting to know people whom you share common ambitions with? It's
 quite simple: **Firstly, blogs are free of geographical limitations. On the
-internet, from anywhere to anywhere else is always just one click away,** while
+internet, the distance between any two nodes is always just one hyperlink away,** while
 the usual ways of making friends are limited to where in the physical world you
-happen to be. Secondly, and more importantly, if we make friends the
+happen to live. Secondly, and more importantly, if we make friends the
 conventional way, we'll need to have conversations with each other, share
 thoughts, gradually get familiar with each other -- which could very well be a
 long process. What's worse, is when you meet _another_ stranger, you'll have to
 repeat the whole process again, just to reiterate whatever it is that you've
-talked about with your old friends years back. Blogging achieves **"write once,
+talked about with your many old friends years back. Blogging achieves **"write once,
 read everywhere"**. Whenever I've read a blog which someone has been keeping
-for many years, I always feel as though I've had many conversations with that
+for many years, I always feel as though I've had conversations with that
 person and known him/her very well. **As programmers would put it -- "blogging
 greatly increases the reusability of language".** 
 
 [I've kept a blog on CSDN for nearly six
 years](http://mindhacks.cn/former-life-of-mindhacks/) , and created a Google
 Groups group ([TopLanguage](https://groups.google.com/group/pongba)).  Due to
-the fact that my long-time blog readers (and I) already share quite a lot in
-common, TopLanguage has seen enthusiastic conversations right from its
-beginning. And because technical discussions happening there are often found
-interesting, even more people [TODO][TODO] joined in; and so the snowball
-rolled. In about a year and a half, I've learnt many things from discussions in
+the fact that my long-time blog readers already share quite a lot in
+common (amongst themselves, and with me), TopLanguage has seen enthusiastic conversations right from its
+beginning. And because the technical discussions there seems to quite inspiring,
+more people gradually joined in; and so the snowball
+started rolling. In about a year and a half, I've learnt many things from reading discussions in
 this group [1]. For those who aren't programmers,
-[SongShuHui](http://songshuhui.net/) is a good example too.
+[SongShuHui](http://songshuhui.net/) is a good example of a helpful community 
+similar TopLanguage.
 
 **2) Writing is better thinking.** I summarized the good things about writing
 in [*Write for a clearer mind*][TODO], so I won't copy and paste it here. The
