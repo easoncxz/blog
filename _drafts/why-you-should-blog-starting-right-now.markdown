@@ -6,59 +6,60 @@ title: "Why you should start blogging now"
 categories: []
 tags: []
 ---
-> Translator note: This post is a translation of an old blog post from 
-> mindhacks.cn , so that my friends whose Chinese ain't that fluent can have a 
-> taste of this article. Original post URL: 
+
+> Translator note: This post is a translation of an old blog post from
+> mindhacks.cn , so that my friends whose Chinese aren't that fluent can have a
+> taste of this article. Original post URL:
 > <http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/>
 
-# 1) Why you should start blogging (starting right now)
+# 1) Why you should blog (starting right now)
 
-Put in a nutshell, **keeping a blog has many benefits, while no obvious 
+In a nutshell, **keeping a blog has many benefits, while no obvious
 downsides**. [TODO][TODO] 
 
-Let me put this down in more detail: **Recording your valueable thoughts in the 
-form of a blog can bring many benefits, but doesn't have any obvious 
-disadvantages**. Note: things like mumbling about trivialities, miscellaneous 
-emotional dumps, or writing for the sake of it etc. -- they don't count as 
-valueable thoughts.
+Let me put this down in more detail: **Recording your valueable thoughts in the
+form of a blog can bring many benefits, but doesn't do any hard**. Note: things
+like mumbling about trivialities, miscellaneous emotional dumps, or writing for
+the sake of it etc. -- they don't count as valueable thoughts.
 
 Here's in my opinion a few of the greatest benefits of keeping a long-term blog:
 
-**1) You can encounter friends of similar ambitions.**[TODO][TODO] While I write 
+**1) You can find friends of similar ambitions.**[TODO][TODO] While I write 
 my own blog, I also read others' blogs too. In this Information Era, perhaps 
 most people's only channel of getting to know more friends is through the 
 internet. But through the wire, how would we be able to tell whether the other 
 person has common interests with ourselves? Trying to do such distinguishment by 
-reading through assorted SNS posts seems far too difficult. [TODO][TODO] Those 
+reading through unorganized SNS posts seems far too difficult. [TODO][TODO] Those 
 friends of mine whom I admire almost all use blogs as a long-term effort for 
 recording thoughts; **hence even if we haven't met in a long time, we'd still 
 know each others' thoughts very well.** Even friends whom you haven't met in 
 person before might inspire enjoyable conversations when you meet.
 
-Why does blogging far outrun primitive conversational methods when it comes to 
+Why does blogging far outrun primitive conversational methods when it comes to the efficiency of
 getting to know people with whom you share ambitions? It's quite simple: 
 **Firstly, blogs are free of geographical limitations. On the internet, from 
 anywhere to anywhere else is always just one click away,** while the usual ways 
-of making friends are limited to where you happen to be. Secondly, and more 
+of making friends are limited to where in the physical world you happen to be. Secondly, and more 
 importantly, if we make friends the conventional way, we'll need to have 
 conversations with each other, share thoughts, gradually get familiar with each 
 other -- which could very well be a long process. What's worse, is when you meet 
-*another* stranger, you'll have to repeat the whole process again, just to 
+_another_ stranger, you'll have to repeat the whole process again, just to 
 reiterate whatever it is that you've talked about with your old friends years 
 back. Blogging achieves **"write once, read everywhere"**. Whenever I've read a 
-blog which someone has been keeping for many years, I always feel as if I've 
-talked much with that person and that I known him/her very well already. **In 
-the words of programmers, "blogging greatly increases the reusability of 
-language".** 
+blog which someone has been keeping for many years, I always feel as though I've 
+had many conversations with that person and known him/her very well. **As programmers 
+would put it -- "blogging greatly increases the reusability of language".** 
 
-[I've kept a blog on CSDN for nearly six years][TODO], and created a Google 
-Groups group ([TopLanguage][TODO]). Due to the fact that my long-time blog 
-reader (and I) already share quite a lot in common, that group has seen 
-enthusiastic conversations right from its beginning. And because some quality 
-technical discussions have been happening there, even more people [TODO][TODO] 
+[I've kept a blog on CSDN for nearly six years](http://mindhacks.cn/former-life-of-mindhacks/)
+, and created a Google 
+Groups group ([TopLanguage](https://groups.google.com/group/pongba)).
+Due to the fact that my long-time blog 
+readers (and I) already share quite a lot in common, TopLanguage has seen 
+enthusiastic conversations right from its beginning. And because 
+technical discussions happening there are often found interesting, even more people [TODO][TODO] 
 joined in; and so the snowball rolled. In about a year and a half, I've learnt 
-many things from discussions in this group [^1][]. For those who aren't 
-programmers, SongShuHui [TODO][TODO] is a good example too.
+many things from discussions in this group [1]. For those who aren't 
+programmers, [SongShuHui](http://songshuhui.net/) is a good example too.
 
 **2) Writing is better thinking.** I summarized the good things about writing in 
 [*Write for a clearer mind*][TODO], so I won't copy and paste it here. The thing 
