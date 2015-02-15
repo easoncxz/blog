@@ -17,14 +17,13 @@ tags:
 
 # 1) Why you should blog (starting right now)
 
-In a nutshell, **keeping a blog has many benefits, while no obvious
+In a nutshell, **keeping a blog has many benefits, but no obvious
 downsides**.
 
-Let me put this down in more detail: **Recording your valuable thoughts in the
+Let me put this down in more detail: **Recording your meaningful thoughts in the
 form of a blog can bring many benefits, but doesn't do any harm**. Note: things
 like mumbling about trivialities, making miscellaneous emotional dumps, or 
-writing for
-the sake of writing etc. -- these don't count as valuable thoughts.
+writing for the sake of writing etc. -- these don't count as valuable thoughts.
 
 Here's in my opinion a few of the greatest benefits of keeping a long-term
 blog:
