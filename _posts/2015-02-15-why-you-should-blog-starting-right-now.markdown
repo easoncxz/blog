@@ -1,15 +1,18 @@
 ---
 layout: post
-status: draft
-publish: false
-title: "Why you should start blogging now"
-categories: []
-tags: []
+title: Why you should start blogging now
+categories:
+- translated
+tags:
+- blogging
 ---
 
-> Translator note: This post is a translation of an old blog post from
-> mindhacks.cn , so that my friends whose Chinese aren't that fluent can have a
-> taste of this article. Original post URL:
+> This post is a translation of an blog post from mindhacks.cn I read a long
+> time ago, with the intention that my friends whose Chinese aren't that 
+> up-to-scratch can have a taste of this article (and so that I can refer to 
+> it).
+>
+> URL of the original post:
 > <http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/>
 
 # 1) Why you should blog (starting right now)
