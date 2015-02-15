@@ -2,7 +2,7 @@
 layout: post
 status: draft
 publish: false
-title: "Why you should blog (starting right now)"
+title: "Why you should start blogging now"
 categories: []
 tags: []
 ---
@@ -57,7 +57,7 @@ reader (and I) already share quite a lot in common, that group has seen
 enthusiastic conversations right from its beginning. And because some quality 
 technical discussions have been happening there, even more people [TODO][TODO] 
 joined in; and so the snowball rolled. In about a year and a half, I've learnt 
-many things from discussions in this group [^1]. For those who aren't 
+many things from discussions in this group [^1][]. For those who aren't 
 programmers, SongShuHui [TODO][TODO] is a good example too.
 
 **2) Writing is better thinking.** I summarized the good things about writing in 
@@ -246,4 +246,202 @@ But then again, the pre-condition of the whole thing is that you *start*
 writing. After you've made it through [TODO][TODO] the most difficult initial 
 period, it will all just come naturally to you.
 
-**7) A long-term blog is the best CV.**
+**7) A long-term blog is the best CV.** Here, "CV" isn't just specifically the 
+piece of document you use when seeking a job. After all, it's currently not yet 
+the **era of valueable blogs** -- most people are just re-blogging articles from 
+around the internet, or just posting smalltalk; hence the interviewer wouldn't 
+really take personal blogs as a serious, reliable means of knowing about the 
+applicant. Here, "CV" is a window through which others can get to know you.  
+Although one might not be able to make one's blog a pillar of one's career, like 
+Yonghao Luo [TODO][TODO] or Keso (who made 5gme) has done, at least **you can 
+get to know more people because of blogging. The more valueable your blog is, 
+the more _capable_ [TODO][TODO] the people you get to know in this way would be, 
+and the more your knowledge horizon would extend, and then you'll be able to 
+grasp opportunities and jump to touch your goals, and then you'll gradually 
+become more _capable_ [TODO][TODO] yourself as well... This is a virtuous 
+cycle.**
+
+# 2) How to keep a long-term valueable blog
+
+It's worth noting that I didn't mean anything about "perseverance" -- when 
+thinking, summarising and externalising has become a habit, putting thoughts 
+down into words and in return using words to assist thinking would have already 
+become a habit too. Thoughts will be begging to be written down -- the blog 
+itself will have become merely a by-product.
+
+At first you think long and hard about things, trying to summarise thoughts into 
+words so that you have a blog post, hoping to let people feel a bit of novelty. 
+Later down the path, because you're accustomed to thinking and reflecting, and 
+because you realise that writing is better thinking, you just _have to_ turn 
+your thought process into words. Up to this point, the purposes will finally 
+start to seem the right way around -- we're not trying to assist blogging by 
+thinking, but rather assist thinking by blogging.
+
+Well then how do we pull off this long term effort? I can imagine people giving 
+various little techniques as advice to bring more motivation and inspiration, 
+e.g. how to do better SEO, how to encourage readers' interaction etc.. I need 
+not mention all of those; I will only mention what's in my opinion the most 
+important thing:
+
+> Become a person who persistently learns and contemplates. Write only the 
+> outcomes of true thought. All the rest will fit themselves in place.
+
+This is in the same spirit as the rather well-known saying that "Do what you 
+love; the money will follow".[^2]
+
+There are lots of examples around this topic; I'll save the effort of listing 
+them. What I need to re-emphasise is that: whatever you do, do _not_ post 
+trivial chat and small talk. I can appreciate the urge to sometimes rant about 
+stuff, but now there is a perfect medium for that -- Twitter. Stop posting 
+things on your blog that did _not_ come from sufficient thought on your side. 
+Think "think long and hard". Readers who subscribe to your blog wish to receive 
+_signal_, not _noise_.  **If you really can't help but want to talk about those 
+trivialities, step into others' shoes and think to yourself: if they wrote such 
+a piece on _their_ blog, would _you_ want to spent your time reading and 
+filtering through it?**
+
+# 3) Possible problems, and some strategies for coping with them
+
+Even though the prose above gave lots of reasons why _to_ write a blog, 
+sometimes all it needs to take to hold a potential blogger back is just one 
+reason to _not blog_. As mentioned in the fifth chapter of _Influencer: The 
+Power to Change Anything_ [^3][]
+[amazon](http://www.amazon.cn/Influencer-The-Power-to-Change-Anything-Kerry-Patterson/dp/007148499X/) 
+[douban](http://book.douban.com/subject/3130904/)
+[one-amazon](http://www.amazon.com/Influence-Psychology-Persuasion-Revised-Edition/dp/006124189X/)
+[one-douban](http://book.douban.com/subject/1005576/)
+-- "Much of will is skill". **Whether or not you're can be determined enough 
+largely depends on your methodology.**
+
+**1) Worrying that people consider your blog is not valueable.** The problems 
+that you face would more likely than not to have been faced by others before 
+too. If you put your independent thinking into the issue, the outcome is pretty 
+much valueable by definition. Of course, it wouldn't be a surprise that there 
+may be people who really _does just already know_ what you're talking about in 
+your blog post; but then however "smart" you are, there's always going to be 
+people who're "smarter". We shouldn't reject recording our thoughts just because 
+there are "smarter" people out there; good understanding of a topic always only 
+comes after one's own thought. Besides, even if other people has thought about 
+a certain topic, there's always aspects of the topic that aren't yet covered, 
+thoughts people haven't thought. When putting thought into things has become a 
+habit, your ability to think and analyse things will steadily grow, and your 
+blog posts will become steadily more valueable. Let me repeat this: **Whatever 
+problem you're facing, must have been faced by others already. Whatever comes 
+out of your long and hard thinking will always be valueable to many.**
+
+It is also possible that **after you've "figured it out", you consider that 
+"this topic is actually really simple", and "not worthy of a blog post"**. Be 
+aware, that problems always seem "simple" when you've already "got it". It's not 
+how difficult the problem seems in hindsight that matters -- it's **how much 
+process it requires you to go through before you can get from confused to 
+clear** that counts. The more time and effort it took you to make that 
+transition, the more people out there would we expect to not have done the same.  
+The harder the task, the fewer the conquerors.
+
+Although if I now look back at articles I wrote a year ago, I might think 
+they're immature or incomplete in their thinking, if it weren't through such a 
+process of writing, thinking and repeating that I've gone through, I wouldn't 
+have arrived at the position today at which I can make such comments in 
+hindsight. In the same way, it's quite likely that when in a few years' time I 
+look back at my writings today, they will seem similarly "immature" and 
+"incomplete".
+
+**2) Worrying that your thoughts are too naîve or flawed and that others will 
+laugh at it.** We're all human; we make mistakes. It's exactly because an 
+individual's thought is almost always incomplete, that we should share our 
+thinking and fill in each other's cracks. The possibility of your mistakes being 
+pointed out is exactly what's required to reduce them and improve. Thoughts that 
+are always hidden behind your back and never spoken of will never become mature.
+
+"Much of intelligence is knowledge." There is a thought-provoking [TODO][TODO] 
+pyschology experiment [^4][]:
+
+> Split some children into two groups, and give them different reading material. 
+> For one group, give material that claims intelligence is innate, and 
+> un-change-able via effort. For the other group, give material that claims 
+> "intelligence" is just another word to mean knowledge and skill, and is 
+> entirely dependent on one's effort. Subsequently, the children are asked to 
+> perform a set of tasks. Those in the innate-intelligence group tend to avoid 
+> difficult tasks and pick the easy ones. We can imagine the logic going on: "If 
+> I pick the difficult tasks, the probablity of failure will be larger, and I 
+> will give others the impression that I am of less intelligence. In order to 
+> avoid my apparent intelligence level from decreasing, I should avoid those 
+> tasks that I'm more likely to fail at." Children from the other group tend to 
+> be more willing at attempting the more challenging tasks, and is noticeably 
+> less disheartened than those from the first group when faced with failure -- 
+> because even if the task resulted in a failure, more knowledge, skill and 
+> experience is gained in the process, and the level of intelligence must have 
+> increased either way.
+
+Besides, those who only know to criticise or even ridicule others are the least 
+helpful people. Just ignore them.
+
+**3) Worrying that you aren't getting reward.** This is actually a rather 
+irrelevant question. Only blogs that talk about nothing but trivialities would 
+face such a concern. If what you write down is your own thinking, then just the 
+fact that you've thought about it carefully enough such that you're able to 
+write it down is itself already supposed to be a rewarding thing, even if you 
+were to write it in your private little notebook. Besides, if you are authoring 
+a valueable blog, you shouldn't worry at all about its popularity. Maybe in the 
+beginning it would start out small, but that's a necessary step of the process.  
+Both [Paul Buchheit](http://en.wikipedia.org/wiki/Paul_Buchheit), a core member 
+of the Gmail team and the founder of FriendFeed, and Jeff Atwood have exclaimed: 
+"Overnight success takes a long time." 
+([(1)](http://paulbuchheit.blogspot.com/2009/01/overnight-success-takes-long-time.html), 
+[(2)](http://blog.codinghorror.com/overnight-success-it-takes-years/)). However 
+nowadays, there are more and more information aggregation services on the 
+internet, some where humans do the work, some where bots do; from the viewpoint 
+of idendipendent bloggers, the situation is favourable and encouraging, and it's 
+even still getting better.
+
+**4) Worrying that you've got nothing to write about.** This is also quite an 
+irrelevant concern. The process of thinking is not one you can rush on. Those 
+who subscribe to my blog long-term will know that my publishing frequency is 
+about 3 to 5 posts per month. In fact sometimes I don't have anything published 
+for months. The reason behind such delays is simple: either I've got urgent work 
+at hand that I need to deal with before some deadline, or that the problems I 
+was facing were big ones, which would require more time and more thought into 
+them. It doesn't really matter that you keep your blog quiet while you think 
+carefully -- if you don't feel like you've thought enough for a blog post, just 
+keep working at it until you're ready. There's a difference between those who 
+are keen on thinking and those who aren't: the former always has a few topics 
+floating at the back of their mind, which comes out to centre stage and demands 
+thought whenever the mind has its moments of pause; the latter doesn't have such 
+floating topics -- they don't even pro-actively think about anything, and even 
+always tries to let others "help" them do the thinking for them when they're 
+faced with a difficulty.
+
+It's ok to spend some more time and learn to think slowly. Dig deep on a topic, 
+and you'll always find edges and corners overlooked by others. The longer you 
+can leave a question floating in your mind, the more likely it is that you 
+discover new things about the topic. Usually, for questions which I consider 
+valueable, I would keep thinking about it intermittently, consciously or 
+subconsciouslyl, for some period of time, ranging from a week to a month, 
+depending on the difficulty/complexity of the issue, and use the free time when 
+I walk, eat to think about the issue. (I've discovered that many people who I 
+admire have similar thinking habits.) **Sometimes even when I thought I've 
+thought enough about it and wrote and published an article on an issue, my mind 
+still has the inertia of thinking about it subconsciously; and hence when I then 
+come across a certain article or book I would again be struck with new ideas and 
+sentiments.**
+
+**The ability of letting questions linger in one's subconsciousness is a 
+capability that can bring great benefits. The longer the thinking has happened 
+in your head, the more you'd be able to see compared to others.** Only by 
+observing the world around us _while we are holding thoughts_ would we be able 
+to make new discoveries. The typical example is Archimedes' "Eureka!" moment -- 
+if he hadn't keep thinking about the same question during his "down time" for a 
+long period, how would he have been able to come to the realisation of "using 
+the volume of displaced water to measure volume"? -- Otherwise he would've long 
+discovered this techinique through years of taking baths.
+
+Therefore, if you have formed the habit of thinking, you will always have things 
+to write about, things to summarise, which will in turn inspire more thought.
+
+Of course another technique you can try is to write down those 
+thought-in-progress's themselves, and try to organise them into words of 
+clarity, and see what new thoughts and conclusions you can draw by going 
+through this process. This is often viable. For instance, this article was once 
+only three mere lines in my notebook (each containing around ten keywords) -- 
+and the initial question was just yet-another-thought I had while walking 
+around: "Why should anyone blog?"
