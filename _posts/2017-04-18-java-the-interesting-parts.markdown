@@ -443,6 +443,8 @@ that this article has given you some new ideas to think about, and perhaps a bit
 of motivation and curiosity to look for other interesting features in various 
 languages. Until next time!
 
+[subtype]: https://en.wikipedia.org/wiki/Subtyping
+[byte-code]: https://en.wikipedia.org/wiki/Java_bytecode
 [compiled]: https://en.wikipedia.org/wiki/Compiled_language
 [interpreted]: https://en.wikipedia.org/wiki/Interpreted_language
 [liskov]: http://wiki.c2.com/?LiskovSubstitutionPrinciple
