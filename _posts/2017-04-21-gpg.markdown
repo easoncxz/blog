@@ -1,0 +1,303 @@
+---
+title: "GnuPG concepts"
+---
+
+GnuPG has been around for long, and there are many posts online about its usage, 
+security considerations etc. In this post, I note some points of conceptual 
+interest, assuming you have done a fair bit of reading about PGP and GnuPG.
+
+# GnuPG is a piece of software
+
+"GPG" is an abbreviation of GnuPG, which is in turn an abbreviation of "GNU
+Privacy Guard". GnuPG is an implementation of the OpenPGP protocol, which is a
+standard stemmed from a piece of software called PGP, which is short
+for "Pretty Good Privacy" and has to do with Phil Zimmermann.
+
+To install GnuPG, the package name to use is `gnupg`.
+
+    # On Mac OS:
+    $ brew install gnupg
+
+    # On Ubuntu:
+    $ apt install gnupg
+
+The program and manpages are under the name `gpg`.
+
+    $ gpg --version
+
+Once you are this far, you can generate a key, and start messing around with 
+encrypting/decryting/signing/verifying files, all using just your own key.
+
+- Reading: [Introduction to GnuPG (http://ianatkinson.net/computing/gnupg.htm)](http://ianatkinson.net/computing/gnupg.htm)
+
+Assuming that you know what public-key cryptography, a.k.a. asymmetric-key 
+cryptography, does, let's go and match the terms used up with the concepts we 
+already know.
+
+# Key-pair
+
+Let's start with the notion of a public and private keys. Both are fundamentally 
+just numbers in the mathematical sense; what mathematically associates them into 
+a "key-pair" is the fact that they are always generated together, in a pair, in 
+one execution of some random algorithm.
+
+# Encryption-Decryption / Signing-Verifying
+
+Encryption-decryption or signing-verifying is not an inherent attribute of a 
+key-pair, but categorisation of the *usage* of a key-pair instead. GnuPG marks 
+key-pairs with their intended usages, and e.g. automatically uses the key-pair 
+designated for signing-verifying (instead of the one for encryption-decryption) 
+when you want to sign things.
+
+A key-pair for encryption-decryption is also called an "encryption key". A 
+key-pair for signing-verifying is also called a "signing key".
+
+# A key-pair is not a pair of "keys"!
+
+The notion of a "key" in GnuPG documentation actually consists of one or many of 
+the above-mentioned key-pairs. It's worth pointing out that, counterintuitively, 
+the type of thing that a "key-pair" has a pair of, is **not** a "key". Instead, 
+a "key" **consists** of multiple "key-pairs". I will use "GPG key" to refer to 
+such a collection of one or many key-pairs.
+
+A possible motivation for this kind of design is to facilitate using one 
+key-pair for signing and a different one for encryption, despite there being 
+only one identified person using the GPG key. This is the default setup GnuPG 
+uses when generating a GPG key via `gpg --gen-key`.
+
+# "Subkey"
+
+The mechanism by which the multiple key-pairs within the same GPG key relates to 
+each other is the notion of a "subkey". In each GPG key, there is a key-pair 
+given special status, called the "master key". The master key certifies that the 
+other key-pairs in the GPG key belong to the same owner via the usual means of 
+certification: a signature. The other key-pairs are then referred to as 
+"subkeys" of that GPG key. In the manpage `man gpg`, the master key is also 
+referred to as the "primary key", and the subkeys are also referred to as the 
+"secondary keys".
+
+The passphrase GnuPG obtains from you when you generate a key is scoped to the 
+entire GPG key, instead of individual key-pairs within it. Adding, revoking, or 
+using subkeys will not change the passphrase.
+
+# Where it's all stored: keyrings
+
+There's `~/.gnupg/`, which is a directory containing files used or managed by 
+the `gpg` program, and some config files. There is a major difference between 
+GnuPG v1.x and v2.x regarding how GPG keys are stored within the `~/.gnupg` 
+directory.
+
+In v1.x, there's a "public keyring" that, for each GPG key you work with (be it 
+your own or your friend's), stores the public-halves of the key-pairs of that 
+GPG key. For simplicity, let's think of each GPG key as a whole and say that the 
+"public-half" of each of your GPG keys is stored in the public keyring.  
+Similarly, the "private-half" of each of your GPG keys is stored in what's 
+called the "private keyring". Obviously, you'd have the private-half of only 
+your own GPG key; hence it's unsurprising that the private keyring only has one 
+item in it (which may contain within it private-halves for multiple key-pairs).
+
+In v2.x, information previously stored in the private keyring is now stored as 
+individual files in a separate directory, one file per GPG key. Hence the notion 
+of a "private keyring" no longer exists, and that the public keyring can simply 
+be referred to as "the keyring". As an aside, GnuPG seems to automatically 
+generate revocation certificates when you generate GPG keys (good!), which it 
+then stores into a directory for revocation certificates, using one file per GPG 
+key you generate.
+
+Regardless of GnuPG version, as GnuPG users, we generally don't need to 
+manipulate contents within `~/.gnupg` directly. As such, we can work with GnuPG 
+regardless of our shell's current working directory; e.g. we can run `gpg 
+--list-keys` anywhere.
+
+# Reading the output of gpg
+
+In `gpg --list-keys` or `gpg --list-secret-keys`:
+
+- `pub`: public key; the public-half of a master key
+- `sub`: public subkey; the public-half of a subkey
+- `sec`: secrete key; the private-half of a master key
+- `ssb`: secrete subkey; the private-half of a subkey
+- `uid`: a user identifier entry. Each GPG key can have multiple of these.
+- `SC`, `E`, etc.: intended usages of the key-pair. `S` for signing; `E` for 
+  encryption; `C` for certification (something GnuPG designates the master key 
+  to do).
+
+See also: <https://www.void.gr/kargig/blog/2013/12/02/creating-a-new-gpg-key-with-subkeys/>
+
+# Identifying GPG keys
+
+You'd probably want to be able to tell one GPG key from another. When we operate 
+on GPG keys, we usually work on each one as a whole, without taking it apart 
+into individual key-pairs. How do we identify a given GPG key? Short of being 
+the key itself, the strongest method in practical use to identify a GPG key is 
+to use its "fingerprint".
+
+The smallest entity that can have a "fingerprint" is each key-pair within a GPG 
+key; i.e., your master key will have a fingerprint, and each subkey will have a 
+fingerprint. Because a key-pair is the smallest unit, the public or private half 
+of a key-pair doesn't have a fingerprint by itself. If you ask `gpg` for the 
+fingerprint of the private-half of some subkey, the answer will be the same as 
+if you asked `gpg` for the fingerprint of the public-half of that same subkey. 
+(You can do so via `gpg --list-keys/list-secret-keys --fingerprint --fingerprint`.)
+
+The "fingerprint of a GPG key" is the fingerprint of the master key in that GPG 
+key. Throughout the lifetime of a GPG key, as subkeys are added to or revoked 
+from it, and as user ids are added to or removed from it, the master key doesn't 
+change, therefore the fingerprint of the master key remains the same, and 
+therefore the fingerprint of the GPG key as a whole also remains the same.
+
+A fingerprint is a string of 40 hexidecimal digits, and the longest identifier 
+of a GPG key in practical use, short of repeating the key itself. There are 
+notions of a "keyid", which is really just a suffix of the fingerprint.
+
+    92DC742D9CC89534B75C2746FF99048E395DC7E7    # fingerprint
+                            FF99048E395DC7E7    # "long" keyid; 16 hex digits
+                          0xFF99048E395DC7E7    # "0xlong" keyid
+                                    395DC7E7    # "short" keyid; 8 hex digits
+                                  0x395DC7E7    # "0xshort" keyid
+
+Usually the fingerprint of only the master key is shown; if you want gpg to show 
+the fingerprint of subkeys as well, you'd need to pass `--fingerprint` twice; see 
+the manpage for that.
+
+    $ gpg --list-keys alice
+    pub   rsa2048 2017-04-20 [SC] [expires: 2019-04-20]
+          92DC742D9CC89534B75C2746FF99048E395DC7E7
+    uid           [ultimate] Alice <alice-example-187723@mailismagic.com>
+    ... and then some more stuff ...
+
+When GnuPG generated the revocation certificates for you inside 
+`~/.gnupg/openpgp-revocs.d/`, the filename of each certificate uses the 
+fingerprint of the GPG key which the certificate can revoke.
+
+For GnuPG v2.x however, for storing private keys in 
+`~/.gnupg/private-keys-v1.d/`, neither the fingerprint nor any suffix of it is 
+used for the filename of each private key. Instead, a separate notion of the 
+"keygrip" is used as the filenames. A "keygrip" is something that each 
+private-half of a key-pair can have. Since it's not actively used in most GnuPG 
+uses, you can read about it yourself.
+
+
+# Operating on GPG keys
+
+When we have a GPG key at hand, apart from using it as a crytographic key, what 
+can we do with it? As part of managing GPG keys, the operations we can do whose 
+effect is contained within our local computer includes:
+
+- **Export the public half of a GPG key to a file**. This is a fairly common and 
+  harmless operation. `--export` does this. You can export your own GPG key, or 
+  your friends' which you've imported earlier.
+- **Export the private half of a GPG key to a file**. This is unusual, and will 
+  result in a sensitive file which you should take good care of. 
+  `--export-secret-keys` does this. Obviously you'll need to have the private 
+  key in order to export it.
+- **Import an exported public half of a GPG key**. This is one way you can start 
+  working with GPG keys from your friends. `--import` does this.
+- **Import an exported private half of a GPG key**. If you're needing to do 
+  this, maybe it's because something has gone wrong and you're recovering. Be 
+  careful not to overwrite private keys already managed by GnuPG. `--import` 
+  does this as well.
+- **"Sign" a GPG key**. This means to use the master key of your GPG key to sign 
+  a certificate which will become part of the information that constitutes the 
+  GPG key that is signed. This is the "certification" (`C`) usage of a key-pair 
+  of a GPG key. The certification means that you vouch, using the reputation of 
+  your identity and GPG key, that the signed GPG key indeed belongs to the 
+  person whom that key's user id refers to. It only make sense to sign other 
+  people's keys, not one's own.  `--sign-key` does this.
+- **"Edit" a GPG key**. This includes adding or revoking subkeys, adding user 
+  ids, changing the passphrase that protects the GPG key etc. `--edit` does any 
+  number of those, interactively in the terminal. There is apparently no way to 
+  specify these operations as command-line arguments.
+- **Revoke a GPG key**. This marks a GPG key as compromised. Use `--import 
+  alice.rev`. Revokation of GPG keys or its subkeys are discussed more below.
+- **Delete the public-half of a GPG key**: `--delete-key`
+- **Delete the private-half of a GPG key**: `--delete-secret-key`
+
+The operations that involve network communication between your local computer 
+and a keyserver includes to:
+
+- **Send the public-half of a GPG key to a keyserver**: `--send-keys 
+  $fingerprint`
+- **Retrieve the public-half of a GPG key from a keyserver**: `--search-keys 
+  $query`, where `query` is something among the name, the email, or the 
+  fingerprint of the key you're interested in. GnuPG will interactively ask you 
+  for confirmation. This is the important moment when someone may impersonate 
+      your friend Bob by simply *claiming* to be him.
+- **Push your changes to a GPG key to a keyserver**: after editing your key via 
+  `--edit`, revoking your key via `--import`, or signing a friend's key via 
+  `--sign`, you can push the changes to the world by the same procedure you 
+  first published your GPG key: `--send-keys $optionally_fingerprint`
+- **Pull changes from a keyserver regarding a GPG key**: the key that has 
+  changed while you weren't looking may unsurprisingly be someone else's key or, 
+  somewhat surprisingly, your own key. People might have edited or revoked 
+  their key, yet they might have also added a signature to *your* key. 
+  `--refresh-keys` pulls the changes.
+
+# Revoking a key
+
+Revoking a key involves two steps:
+
+- `--import` the revocation certificate to mark your key as revoked on your 
+  local computer.
+- `--send-keys` to the keyserver, as if you have edited your key.
+
+There's no "deleting" a key from a keyserver. In principle, one can always do 
+that, but that doesn't achieve anything: the deleted key is just going to be 
+sync'ed back from another keyserver in the network.
+
+When you mark your key as revoked (via `--import`), a special revocation entry 
+is added to the information contained within your key, alongside the other 
+entries like user id, uesr id certifications, subkeys, subkey certifications. 
+When your friends see the revocation entry, they will un-trust the entire key.
+
+The effects of the revocation can only be seen by your friends after the update 
+(the revocation, in this case) to you key has propagated throughout the 
+keyserver network, and that your friends have subsequencely run 
+`--refresh-keys` to pull changes you have made to you key (in this case, a 
+revocation).
+
+If you revoke a key, all information in that key is marked as compromised, 
+including your friends' signature of your user id. As such, you effectively lose 
+all reputation built on your GPG key.
+
+# Revoking a subkey
+
+Revoking a subkey involves also two steps:
+
+- `--edit` the GPG key in which the subkey to revoke resides, and follow 
+  instructions to interactively revoke a subkey via `revkey`.
+- `--send-keys` to the keyserves, as you have "edited" your key.
+
+When a subkey is revoked, its corresponding subkey and subkey certification is 
+removed from the set of information contained within the GPG key in which it 
+resided.
+
+Similar to revoking a GPG key, your friends also have to receive your changes 
+via `--refresh-keys` before they know you wanted to revoke a subkey. Documents 
+signed by the revoked subkey can still be identified as being associated with 
+its GPG key, but GnuPG will state that the subkey has already been revoked.
+
+Since nothing happened to your master key nor your user id certifications when 
+revoking a subkey, nothing changed about your reputation. This is a way of 
+managing keys so that you may decrease the impact of the compromise of your 
+`~/.gnupg` directory by storing the private-half of your master key elsewhere 
+than your day-to-day system. Debian seems to promote this practice in its 
+[article about subkeys][debian-subkeys].
+
+# Related reading
+
+- <http://moser-isi.ethz.ch/gpg.html> talks about handling trust and keyservers.
+- <http://ianatkinson.net/computing/gnupg.htm> walks you through encryption and 
+  decryption of files.
+- <https://www.void.gr/kargig/blog/2013/12/02/creating-a-new-gpg-key-with-subkeys/> 
+  is a rather elaborate article describing the practice of using only private 
+  subkeys daily to better protect your private master key.
+- <http://blog.dest-unreach.be/wp-content/uploads/2009/04/pgp-subkeys.html> 
+  also talks about juggling subkeys and master keys.
+- <https://www.gnupg.org/gph/en/manual/book1.html>: always good to read some 
+  official docs.
+- <https://futureboy.us/pgp.html> mentions, among many things, the concepts of 
+  keyid and fingerprints. He also linked to some steganography tools, which seem 
+  pretty cool.
+
+[debian-subkeys]: https://wiki.debian.org/Subkeys
