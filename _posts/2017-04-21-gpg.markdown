@@ -268,9 +268,9 @@ Revoking a subkey involves also two steps:
   instructions to interactively revoke a subkey via `revkey`.
 - `--send-keys` to the keyserves, as you have "edited" your key.
 
-When a subkey is revoked, its corresponding subkey and subkey certification is 
-removed from the set of information contained within the GPG key in which it 
-resided.
+When a subkey is revoked, a certificate signed by the master key of the GPG key
+that states the subkey's revocation is added to the set of information
+contained within the GPG key in which it resided.
 
 Similar to revoking a GPG key, your friends also have to receive your changes 
 via `--refresh-keys` before they know you wanted to revoke a subkey. Documents 
